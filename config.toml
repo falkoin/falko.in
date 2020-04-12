@@ -18,9 +18,9 @@ pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Falko R. Döhring"
-    description = "Falko Dörhing's personal website"
+    description = "Falko Döhring's personal website"
     keywords = "blog,developer,personal"
-    info = "Sports- and data-scientist"
+    info = "Scientist, Programmer, Father"
     avatarurl = "images/ich_small.png"
     # footercontent = "Enter a text here."
 
@@ -46,7 +46,7 @@ pygmentscodefencesguesssyntax = true
     maxSeeAlsoItems = 5
 
     # Custom CSS
-    custom_css = []
+    custom_css = [] 
     
     # Custom JS
     custom_js = []
