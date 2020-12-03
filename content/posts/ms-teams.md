@@ -25,4 +25,4 @@ sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Fra
 sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper (Renderer).app"
 ```
 
-Use these command in the terminal when MS Teams is closed. The next time it starts up you have to give some permissions again, which is quite inconvenient.
+Use these commands in the terminal when MS Teams is closed. The next time it starts up you have to give some permissions again, which is quite inconvenient.

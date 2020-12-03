@@ -15,6 +15,8 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "yourdiscussshortname"
+[imaging.exif]
+    includeFields = ".*"
 
 [params]
     author = "Falko R. Döhring"
@@ -30,7 +32,7 @@ pygmentscodefencesguesssyntax = true
     hideCopyright = true
     since = 2019
     galleryLoadJQuery = true
-
+    
     # Git Commit in Footer, uncomment the line below to enable it.
     # commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
