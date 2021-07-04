@@ -1,1 +1,1 @@
-# My Photo Stories
+# Photo Stories

@@ -1,0 +1,14 @@
+<section class="container page">
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <img src={{ .Params.Image }} width="650"></a>
+
+<audio controls>
+  <source src={{ .Params.Audio }} type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+    {{ .Content }}
+  </article>
+</section>
