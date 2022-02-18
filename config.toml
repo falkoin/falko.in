@@ -26,7 +26,7 @@ pygmentscodefencesguesssyntax = true
     avatarurl = "images/ich_small.png"
     # footercontent = "Enter a text here."
 
-    dateformat = "January 2, 2006"
+    dateformat = "2 January 2006"
 
     hideCredits = true
     hideCopyright = true
@@ -92,11 +92,6 @@ url = "posts/"
 name = "Photography"
 weight = 2
 url = "photo/"
-
-[[menu.main]]
-name = "Photo Stories"
-weight = 3
-url = "photo_stories/"
 
 [[menu.main]]
 name = "Projects"
