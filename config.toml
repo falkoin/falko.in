@@ -75,6 +75,16 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "https://twitter.com/falkoin/"
 [[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 3
+    url = "https://instagram.com/halb.cool"
+[[params.social]]
+    name = "YouTube"
+    icon = "fab fa-youtube"
+    weight = 3
+    url = "https://www.youtube.com/channel/UCbbOnwleHitlIQ1Eq7FJS6Q"
+[[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
     weight = 4
