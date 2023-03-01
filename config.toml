@@ -1,5 +1,5 @@
 baseurl = "https://falko.in"
-title = "Falko R. Döhring"
+title = "Falko Döhring"
 publishdir = "../falkoin.github.io"
 
 theme = ["hugo-coder", "hugo-shortcode-gallery"]
@@ -19,8 +19,8 @@ pygmentscodefencesguesssyntax = true
     includeFields = ".*"
 
 [params]
-    author = "Falko R. Döhring"
-    description = "Falko Döhring's personal website"
+    author = "Falko Döhring"
+    description = "Falko Döhring's place in da interwebz"
     keywords = "blog,developer,personal"
     info = "Scientist, Programmer, Father"
     avatarurl = "images/ich_small.png"
