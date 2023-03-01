@@ -1,6 +1,6 @@
 baseurl = "https://falko.in"
 title = "Falko Döhring"
-publishdir = "../falkoin.github.io"
+publishdir = "falko.in"
 
 theme = ["hugo-coder", "hugo-shortcode-gallery"]
 
@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
     author = "Falko Döhring"
     description = "Falko Döhring's place in da interwebz"
     keywords = "blog,developer,personal"
-    info = "Scientist, Programmer, Father"
+    info = "Programmer, Father, Scientist"
     avatarurl = "images/ich_small.png"
     # footercontent = "Enter a text here."
 
@@ -70,10 +70,10 @@ pygmentscodefencesguesssyntax = true
     weight = 2
     url = "https://gitlab.com/falkoin/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
+    name = "Mastodon"
+    icon = "fab fa-mastodon"
     weight = 3
-    url = "https://twitter.com/falkoin/"
+    url = "https://mastodon.social/@falkoin"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
@@ -102,11 +102,6 @@ url = "posts/"
 name = "Photography"
 weight = 2
 url = "photo/"
-
-[[menu.main]]
-name = "Projects"
-weight = 4
-url = "projects/"
 
 [[menu.main]]
 name = "About"
