@@ -2,7 +2,7 @@ baseurl = "https://falko.in"
 title = "Falko Döhring"
 publishdir = "falko.in"
 
-theme = ["hugo-coder", "hugo-shortcode-gallery"]
+theme = ["hugo-coder"]
 
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -61,17 +61,17 @@ pygmentscodefencesguesssyntax = true
 
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github"
     weight = 1
     url = "https://github.com/falkoin/"
 [[params.social]]
     name = "Mastodon"
-    icon = "fab fa-mastodon"
+    icon = "fa fa-mastodon"
     weight = 3
     url = "https://mastodon.social/@falkoin"
 [[params.social]]
     name = "RSS"
-    icon = "fas fa-rss"
+    icon = "fa fa-rss"
     weight = 4
     url = "https://falko.in/index.xml"
     rel = "alternate"
@@ -84,9 +84,9 @@ weight = 1
 url = "posts/"
 
 [[menu.main]]
-name = "Photography"
+name = "Links"
 weight = 2
-url = "photo/"
+url = "links/"
 
 [[menu.main]]
 name = "About"
