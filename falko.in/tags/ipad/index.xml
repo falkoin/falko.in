@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipad on Falko Döhring</title>
+    <link>http://localhost:1313/tags/ipad/</link>
+    <description>Recent content in Ipad on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ipad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS Sleep Timer</title>
+      <link>http://localhost:1313/posts/ios-sleep-timer/</link>
+      <pubDate>Tue, 09 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ios-sleep-timer/</guid>
+      <description>Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht&amp;rsquo;s:&#xA;Die Uhr.app starten und unten rechts das Feld &amp;ldquo;Timer&amp;rdquo; wählen. Dort die gewünschte Zeit einstellen und als Klingelton &amp;ldquo;Wiedergabe stoppen&amp;rdquo; auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scp on Falko Döhring</title>
+    <link>http://localhost:1313/tags/scp/</link>
+    <description>Recent content in Scp on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS X: scp aktivieren</title>
+      <link>http://localhost:1313/posts/292/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/292/</guid>
+      <description>Damit man von einem entfernten Rechner (zum Beispiel einem Raspberry Pi) Dateien über SSH mit scp auf den eigenen Rechner bekommt, muss unter OS X zunächst die Option &amp;ldquo;Entfernte Anmeldung&amp;rdquo; aktiviert werden.&#xA;Dazu geht man in die Systemeinstellungen und wählt den Punkt Freigaben. Dort muss nun ein Haken bei Entfernte Anmeldung gesetzt werden. Dies muss anschließend mit dem Administrator-Kennwort bestätigt werden.&#xA;Unterlässt man diese Schritte, erhält man folgende Fehlermeldung:&#xA;ssh: connect to host port 22: Connection refused</description>
+    </item>
+  </channel>
+</rss>

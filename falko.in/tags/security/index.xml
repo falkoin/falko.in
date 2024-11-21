@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Falko Döhring</title>
+    <link>http://localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verschlüsselt chatten mit Jabber – Detailanleitung Teil 2: Windows</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-windows/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-windows/</guid>
+      <description>Auch unter Windows ist es leicht möglich, verschlüsselt zu chatten. Eine Programmempfehlung hierfür von mir ist ganz klar Miranda. Dieser kleine, unscheinbare IM hat ordentlich Power unter der Haube und lässt sich beliebig durch Addons erweitern. Da es zum Thema &amp;ldquo;Verschlüsselt Chatten mit Miranda&amp;rdquo; einen super Eintrag in deutsch gibt, verweise ich an dieser Stelle auf &amp;ldquo;Die Raven Homepage&amp;rdquo;. Punkt 3 bei der Installation kann vernachlässigt werden, da er mir veraltet erscheint (Achtung - gefährliches Halbwissen).</description>
+    </item>
+    <item>
+      <title>Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</guid>
+      <description>Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.&#xA;Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.&#xA;Zunächst wählt man bei Adium unter &amp;ldquo;Datei&amp;rdquo; den Punkt &amp;ldquo;Einstellungen&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on Falko Döhring</title>
+    <link>http://localhost:1313/tags/osx/</link>
+    <description>Recent content in Osx on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow: Alfred</title>
+      <link>http://localhost:1313/posts/workflow-alfred/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workflow-alfred/</guid>
+      <description>Das Programm Alfred ist ein ziemlicher Allrounder was seine Funktionen angeht. Einmal installiert, wirkt es wie ein zweites Spotlight. Über eine Tastenkombination (bei mir alt + space) öffnet sich zunächst nur eine Kommandozeile. Tippt man ein beliebiges Wort, durchsucht Alfred den Mac nach diesem Stichwort, egal ob es sich um einen Kontakt, eine Datei oder ein Programm handelt.&#xA;Ich möchte in diesem Eintrag nicht auf alle Funktionen eingehen, sondern viel mehr ein paar wichtige Funktionen für meinen Arbeits-Workflow (und oft Alltags-Workflow) hervorheben.</description>
+    </item>
+    <item>
+      <title>OS X: scp aktivieren</title>
+      <link>http://localhost:1313/posts/292/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/292/</guid>
+      <description>Damit man von einem entfernten Rechner (zum Beispiel einem Raspberry Pi) Dateien über SSH mit scp auf den eigenen Rechner bekommt, muss unter OS X zunächst die Option &amp;ldquo;Entfernte Anmeldung&amp;rdquo; aktiviert werden.&#xA;Dazu geht man in die Systemeinstellungen und wählt den Punkt Freigaben. Dort muss nun ein Haken bei Entfernte Anmeldung gesetzt werden. Dies muss anschließend mit dem Administrator-Kennwort bestätigt werden.&#xA;Unterlässt man diese Schritte, erhält man folgende Fehlermeldung:&#xA;ssh: connect to host port 22: Connection refused</description>
+    </item>
+    <item>
+      <title>Automatisierung mit Shell Script (Bash) und curl</title>
+      <link>http://localhost:1313/posts/automatisierung-mit-shell-script-bash-und-curl/</link>
+      <pubDate>Mon, 06 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/automatisierung-mit-shell-script-bash-und-curl/</guid>
+      <description>Bei einem Ausflug durchs Netz bin ich auf ein kostenloses Buch gestoßen, welches ich gerne haben wollte. Leider war das Buch nur in einzelnen Kapiteln zu haben und ich hatte wenig Lust 34 einzelne PDF-Dateien von Hand zu klicken. Daher habe ich ein kleines Shell Script geschrieben, mit dem das automatisch geht.&#xA;Dazu braucht man cURL (Client for URLs) und einen Texteditor. Hier ist es für OS X erklärt, sollte so aber auch problemlos auf Linux, etc.</description>
+    </item>
+    <item>
+      <title>Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</guid>
+      <description>Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.&#xA;Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.&#xA;Zunächst wählt man bei Adium unter &amp;ldquo;Datei&amp;rdquo; den Punkt &amp;ldquo;Einstellungen&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Divvy</title>
+      <link>http://localhost:1313/posts/divvy/</link>
+      <pubDate>Thu, 30 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/divvy/</guid>
+      <description>Ich möchte in diesem Eintrag das Programm Divvy vorstellen. Es ist ein feiner Fenstermanager für Mac und Windows. Ich schreibe hier konkret über die Mac-Variante, gehe aber davon aus, dass die Windows-Variante sehr ähnlich ist.&#xA;Divvy hilft einem dabei die Fenster an den richtigen Ort zu bringen. Jeder, der in seinem Workflow viele verschiedene Programme benutzt, kennt das Problem, dass man viel Zeit mit &amp;ldquo;Fenstermanagement&amp;rdquo; verbringt. Einen Teil davon nimmt einem Divvy nun ab.</description>
+    </item>
+    <item>
+      <title>OS X Mission Control Lag Fix</title>
+      <link>http://localhost:1313/posts/os-x-mission-control-lag-fix/</link>
+      <pubDate>Mon, 27 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-mission-control-lag-fix/</guid>
+      <description>Ich hatte heute ein mysteriöses Problem mit der Animation von Mission Control, das auch schon mal unter Lion auftrat. Damals habe ich noch neu installiert, weil es mich so genervt hat. Es ist zwar rein kosmetischer Art, aber ich bin gut darin, mich in so etwas reinzusteigern.&#xA;Es äußert sich durch eine ruckartige Animation beim Aufruf von Mission Control. Der Hintergrund bleibt flüssig animiert, aber die Fenster springen vom Anfang bis zum Ende der Animation, kein flüssiger Übergang dazwischen.</description>
+    </item>
+    <item>
+      <title>OS X: Fehler bei Updates beheben</title>
+      <link>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</link>
+      <pubDate>Fri, 24 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</guid>
+      <description>Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.&#xA;Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:&#xA;Terminal starten:&#xA;cd /Library/Updates/&#xA;Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781</description>
+    </item>
+    <item>
+      <title>RaspBMC Musik über iTunes unter OS X</title>
+      <link>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</guid>
+      <description>Wer einen Raspberry Pi mit RaspBMC besitzt, kennt vielleicht das Problem: Musik von iTunes zum Pi über Airplay senden funktioniert nicht.&#xA;Bei mir war das so unter OS X 10.8.3 mit einem MacBook Pro Early 2011 über WLAN. Es ging mit iPhone, aber nicht von iTunes über den Mac. Deaktivieren von IPV6 hat das behoben:&#xA;networksetup -setv6off Wi-Fi&#xA;Das in das Terminal eingeben, mit Passwort bestätigen und los geht es!</description>
+    </item>
+    <item>
+      <title>OS X MATLAB &#34;java.lang.OutOfMemoryError: Java heap space&#34;</title>
+      <link>http://localhost:1313/posts/os-x-matlab-java-lang-outofmemoryerror-java-heap-space/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-matlab-java-lang-outofmemoryerror-java-heap-space/</guid>
+      <description>Beim Arbeiten mit Matlab in Kombination mit großen Videodateien (200 Hz einer Casio Exilim ZR-Serie) kam es bei mir häufiger zu der Fehlermeldung:&#xA;java.lang.OutOfMemoryError: Java heap space&#xA;Die Fehlermeldung hängt mit dem Speicher zusammen, dem Java zur Verfügung steht. Um welchen Speicher es sich genau handelt, kann ich nicht genau sagen.&#xA;Um herauszufinden wieviel Speicher Java in Matlab zurzeit zugesichert bekommt, tippt man folgendes in die Kommandozeile von Matlab:&#xA;java.lang.Runtime.getRuntime.maxMemory</description>
+    </item>
+    <item>
+      <title>MKV Datei: DTS Tonspur in AC3 umwandeln</title>
+      <link>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</guid>
+      <description>Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.&#xA;Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.</description>
+    </item>
+    <item>
+      <title>OS X Inaktiven Arbeitsspeicher freigeben</title>
+      <link>http://localhost:1313/posts/os-x-inaktiven-arbeitsspeicher-freigeben/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-inaktiven-arbeitsspeicher-freigeben/</guid>
+      <description>Manchmal geben beendete Programme den belegten Arbeitsspeicher nicht frei und verlangsamen so das System. Um den inaktiven Speicher im RAM freizugeben hilft folgender Befehl im Terminal:&#xA;purge&#xA;Danach sollte der inaktive Speicher wieder zu Verfügung stehen.</description>
+    </item>
+    <item>
+      <title>ISO aus VIDEO_TS Ordner erstellen</title>
+      <link>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</guid>
+      <description>Um unter OS X 10.8 ein ISO Image aus einem VIDEO_TS Ordner zu erstellen, wird nur folgender Befehl im Terminal benötigt:&#xA;hdiutil makehybrid -iso -o Image.iso /input_path&#xA;Image.iso bezeichnet in diesem Beispiel den Namen, /input_path den VIDEO_TS Ordner.</description>
+    </item>
+    <item>
+      <title>Java unter OS X 10.8 mit Chrome reaktivieren</title>
+      <link>http://localhost:1313/posts/java-unter-os-x-10-8-mit-chrome-reaktivieren/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-unter-os-x-10-8-mit-chrome-reaktivieren/</guid>
+      <description>Wegen der bedenklichen Sicherheitslücken hat Apple Java in einem Update deaktiviert. Ab dann muss man sich selbst um die Java-Beschaffung kümmern. Da Chrome unter OS X nicht mit der akutellen Java Version 7 harmoniert, muss man sich selbst zu helfen wissen.&#xA;HIER kommt man zu einer Support-Seite von Apple, wo die Vorgehensweise zur Wiederbeschaffung für Chrome-User erklärt wird.&#xA;Damit stellt man das &amp;ldquo;alte&amp;rdquo; Java 6 wieder her. Es sollte jeder selbst entscheiden, ob er Java braucht und eben die Sicherheitslücken in Kauf nimmt (obwohl diese meines Wissens auch noch in Version 7 enthalten sind).</description>
+    </item>
+    <item>
+      <title>OS X 10.8 Doppelte Einträge in &#34;Öffnen mit&#34; entfernen</title>
+      <link>http://localhost:1313/posts/os-x-10-8-doppelte-eintrage-in-offnen-mit-entfernen/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-10-8-doppelte-eintrage-in-offnen-mit-entfernen/</guid>
+      <description>Unter OS X 10.8 müllt sich &amp;ldquo;Öffnen mit&amp;rdquo; im Kontextmenü nach und nach durch mehrfache Einträge der selben Programme zu. Um dem Einhalt zu gebieten hilft folgender Terminalbefehl:&#xA;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/&#xA;LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local&#xA;-domain system -domain user&#xA;Mit diesem Befehl werden die Launchservices aktualisiert.&#xA;Leider finden sich dort immer wieder mal Mehrfacheinträge ein, so dass man diese Prozessur ab und zu wiederholen muss. Meine Beobachtung ist, dass dies bei Updates betroffener Anwendungen passiert.</description>
+    </item>
+    <item>
+      <title>Problembehebung selbst-gemuxter MKVs</title>
+      <link>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</guid>
+      <description>Ich hab früher öfters Tonspuren extrahiert, umgewandelt und verschoben. Dazu war das Programm mkvtoolnix perfekt geeignet.&#xA;Leider hatte ich bei meinen aktuellen Versuchen keinen Erfolg. Mein Streamer hat entweder keinen Ton abgespielt oder ist einfach abgestürzt. Mit folgenden Einstellungen bin ich allerdings zum Ziel gekommen:&#xA;Programm starten Mit add Datei auswählen Tonspurreihenfolge ändern mit up und down Gewünschte Tonspur markieren In General track options Sprache auswählen Standardsprache setzen (Default track flag auf yes) Extra options auswählen und unter Compression die Option none wählen Zum Umwandeln Start muxing anklicken </description>
+    </item>
+  </channel>
+</rss>

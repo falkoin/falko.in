@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Falko Döhring</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Mar 2021 14:34:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing color/sharpness issues with external displays on macOS (RGB/YCBCR)</title>
+      <link>http://localhost:1313/posts/rgb_mode_dell_macos/</link>
+      <pubDate>Tue, 09 Mar 2021 14:34:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/rgb_mode_dell_macos/</guid>
+      <description>The first time I connected my BenQ XL2730 display to my MacBook the image looked very blurry and I started googling the issue.&#xA;I found out that the issue is related to the color-mode a display is identified with, either RGB or YCBCR. Usually you want your display to be connected with RGB color, but my BenQ was fixed on YCBR without any option to changing it. After more research I found a script to modify some system files so the display is forced into RGB mode.</description>
+    </item>
+    <item>
+      <title>Changing handbrake&#39;s automatic aspect ratio detection</title>
+      <link>http://localhost:1313/posts/handbrake_aspect_ratio/</link>
+      <pubDate>Wed, 03 Mar 2021 09:17:33 +0100</pubDate>
+      <guid>http://localhost:1313/posts/handbrake_aspect_ratio/</guid>
+      <description>From time to time I do screen recordings, which include a PowerPoint with an aspect ratio of 4:3. When encoding these video files with handbrake it tries to be smart about it and automatically detects the aspect ratio of the video, which usually results in a cropped video.&#xA;But there is an easy fix for that. Go to the picture tab and change the cropping option to 0 in all directions.</description>
+    </item>
+    <item>
+      <title>Using the command-line in macOS to resize images</title>
+      <link>http://localhost:1313/posts/resize-images-with-the-command-line/</link>
+      <pubDate>Mon, 28 Dec 2020 12:28:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/resize-images-with-the-command-line/</guid>
+      <description>Creating the photo section for this blog I had the need to resize many images at once. Sure enough, I didn&amp;rsquo;t want to do this by hand and also found it cumbersome to create a batch process in an image manipulation program like Affinity Photo or Photoshop.&#xA;After a quick web-search I stumbled upon the tool sips.&#xA;sips -Z 2000 *.jpg This command resizes all jpg files in a folder to a maximum height or width of 2000, while keeping the aspect ratio.</description>
+    </item>
+    <item>
+      <title>Enabling EpocCam with MS Teams</title>
+      <link>http://localhost:1313/posts/ms-teams/</link>
+      <pubDate>Thu, 03 Dec 2020 09:26:26 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ms-teams/</guid>
+      <description>For work I use the communication platform MS Teams, which makes having a webcam kind of mandatory. Since I used to work with my laptop in clamshell mode, I wasn&amp;rsquo;t able to use the internal webcam. That&amp;rsquo;s when I discovered EpocCam, a software, which makes it possible to use a smartphone as webcam. Using your smartphone is not only pretty convenient but has also very good quality when compared with a standard webcam.</description>
+    </item>
+    <item>
+      <title>Enabling additional languages for spell checking in Sublime Text 3</title>
+      <link>http://localhost:1313/posts/sublime/</link>
+      <pubDate>Mon, 20 Jan 2020 12:13:45 +0100</pubDate>
+      <guid>http://localhost:1313/posts/sublime/</guid>
+      <description>I often use Sublime Text 3 for creating LaTeX documents. When doing so I really need spell checking for my texts to avoid producing gibberish. Fortunately that feature is already included, only dictionaries have to be added to support you preferred language.&#xA;Here you can find basic information on how to achieve that from the official homepage.&#xA;Unfortunately it wasn&amp;rsquo;t self explanatory to me. To get new dictionaries working, go to https://github.</description>
+    </item>
+    <item>
+      <title>Spyder sehr langsam unter macOS Mojave</title>
+      <link>http://localhost:1313/posts/spyder-sehr-langsam-unter-macos-mojave/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/spyder-sehr-langsam-unter-macos-mojave/</guid>
+      <description>Ich arbeite in letzter Zeit viel mit Python, bevorzugt in der IDE Spyder. Leider ist diese irgendwann ziemlich langsam geworden.&#xA;Wie dieser GitHub Issue Tracker verdeutlicht, bin ich nicht der einzige mit diesem Problem.&#xA;Abhilfe hat bei mir die Antwort von ccordoba12 geschaffen:&#xA;conda install ipython=6 ipykernel=4&#xA;Das Ausführen im Terminal hat ziemlich lange gedauert, aber danach läuft Spyder wieder schön rund.</description>
+    </item>
+    <item>
+      <title>Darkmode für Slack</title>
+      <link>http://localhost:1313/posts/darkmode-fuer-slack/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/darkmode-fuer-slack/</guid>
+      <description>Nachdem ich bei macOS auf den Darkmode umgestiegen bin, habe ich für alle Programm, die diesen nicht standardmäßig unterstützen, Einstellungen gesucht, um diese visuell anzupassen. Hier gibt es eine Anleitung wie man Slack entsprechend anpasst.</description>
+    </item>
+    <item>
+      <title>Logitech Mäuse und macOS (Update 2018)</title>
+      <link>http://localhost:1313/posts/logitech-maeuse-und-os-x-update-2018/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/logitech-maeuse-und-os-x-update-2018/</guid>
+      <description>Ich habe vor einiger Zeit über die Integration der Seitentasten bei Mäusen von Logitech unter macOS geschrieben. In der Regel sind die Seitentasten mit vor und zurück belegt. Leider sind die Tasten unter macOS meistens funktionslos. Daher hatte ich die Software BetterTouchTool empfohlen, die noch eine ganze Menge mehr kann und auch etwas kostet. Das hat mich bisher nicht gestört, bis ich erneut aufgefordert wurde etwas zu bezahlen. Ich bin ein Freund davon Entwickler zu unterstützen, aber alle 2 Jahre X Euro für die Verwendung von zwei Maustasten hinzulegen, war es mir nicht wert.</description>
+    </item>
+    <item>
+      <title>Do Not Disturb in macOS schnell aktivieren</title>
+      <link>http://localhost:1313/posts/do-not-disturb-in-macos-schnell-aktivieren/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/do-not-disturb-in-macos-schnell-aktivieren/</guid>
+      <description>Ich benutze häufig den Do Not Disturb Modus, da ich mit meinem Laptop regelmäßig vor einem Publikum präsentiere. Standardmäßig wird er über das Notification-Center aktiviert und deaktiviert. Außerdem aktiviert er sich selbstständig während Präsentationen.&#xA;Da ich auch Dinge in anderen Programmen zeige, ist es wichtig, dass ich den Modus von Hand aktiviere.&#xA;So habe ich mich eben gefragt, ob es da nicht eine einfache Möglichkeit gibt, ohne extra das Notification-Center zu öffnen, welches ich eher selten benutze.</description>
+    </item>
+    <item>
+      <title>uBlock blockt das neue YouTube Design</title>
+      <link>http://localhost:1313/posts/ublock-blockt-das-neue-youtube-design/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ublock-blockt-das-neue-youtube-design/</guid>
+      <description>Seit dem YouTube auf das neue Design umgestellt hat, ist die Benutzung mit Safari in Kombination mit uBlock fast unmöglich geworden. Vor allem Verlinkungen funktionieren nicht mehr, aber auch Vorschaubilder und Kommentare laden nicht.&#xA;Die Lösung ist ganz einfach: Der Umstieg von uBlock auf uBlock Origin für Safari, welches man hier findet.</description>
+    </item>
+    <item>
+      <title>WMV-Datein in PowerPoint Präsentation Mac-kompatibel machen</title>
+      <link>http://localhost:1313/posts/wmv-datein-in-powerpoint-praesentation-mac-kompatibel-machen/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wmv-datein-in-powerpoint-praesentation-mac-kompatibel-machen/</guid>
+      <description>Kurz und knapp: Ich habe eine Präsentation bekommen, in der WMV-Dateien eingebettet waren und mein Mac diese nicht abspielen konnte. Microsoft empfiehlt mir an dieser Stelle einen Codec zu kaufen. Eine bessere Lösung, die ich gefunden habe, war folgende:&#xA;Die PowerPoint Präsentation kopieren und in .zip umbennnen und dann mit dem Programm &amp;ldquo;The Unarchiver&amp;rdquo; (mit der hauseigenen Mac-Extrahierungssoftware hat es nicht funktioniert) entpacken. Dort finden man nun alle Mediendateien und kann diese mit seinem bevorzugten Programm (bei mir ffmpeg) in ein kompatibles Format umwandeln und anschließend in der Präsentation ersetzen.</description>
+    </item>
+    <item>
+      <title>Liebes Vodafone</title>
+      <link>http://localhost:1313/posts/liebes-vodafone/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/liebes-vodafone/</guid>
+      <description>Ich habe Vodafone eigentlich ganz gerne. Ich habe seit ihrem DSL Start in Deutschland (ca. 2008) einen Internet/Telefon Anschluss bei ihnen und mittlerweile den 3. Handyvertrag. Auch meine Freundin hat dort DSL und einen Handyvertrag (woran ich nicht ganz unschuldig bin). Sie haben mir einmal ganz schön aus der Patsche geholfen, als ich meinen Vertrag gekündigt und mich dann doch umentschieden hatte und eigentlich schon der Telekom (die sind Leitungsinhaber) der Kündigungsbescheid gegeben wurde.</description>
+    </item>
+    <item>
+      <title>Wenn Spotlight Einträge übersieht</title>
+      <link>http://localhost:1313/posts/wenn-spotlight-eintrage-ubersieht/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wenn-spotlight-eintrage-ubersieht/</guid>
+      <description>Vor ein paar Tagen konnte ich MATLAB nicht mehr über Spotlight starten, was ich in der Regel mehrmals pro Woche tue.&#xA;Mit einem erneuten Laden der Metadaten kann man das Problem beheben:&#xA;sudo mdutil -a -i off Deaktivieren von Spotlight&#xA;sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist Verweis auf Metadaten entfernen&#xA;sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist Verweis wieder erstellen&#xA;sudo mdutil -a -i on Aktiveren von Spotlight&#xA;Die Lösung stammt nicht von mir, sondern kommt von hier.</description>
+    </item>
+    <item>
+      <title>Stabiles WLAN mit der FRITZ!Box 7490</title>
+      <link>http://localhost:1313/posts/stabiles-wlan-mit-der-fritzbox-7490/</link>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/stabiles-wlan-mit-der-fritzbox-7490/</guid>
+      <description>Ich habe kürzlich meine Easybox 904 xDSL gegen eine FRITZ!Box 7490 getauscht und hatte anfangs mit einem instabilen WLAN zu kämpfen. Probleme waren folgende:&#xA;WLAN riss häufig ab Die Übertragungsrate wurde über die Zeit immer geringer, bis Seiten gar nicht mehr geladen wurden Nun die Schritte, die Abhilfe schafften:&#xA;2.4 und 5 Ghz Netze mit separater SSID einrichten Das 5 Ghz Netz auf den festen Kanal 40 legen USB 3.0 deaktivieren (bringt von der Geschwindigkeit her eh nichts, weil es die Box nicht schafft) </description>
+    </item>
+    <item>
+      <title>f.lux für iOS</title>
+      <link>http://localhost:1313/posts/f-lux-fuer-ios/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/f-lux-fuer-ios/</guid>
+      <description>Ich habe vor eingier Zeit das kleine Programm f.lux für Mac vorgestellt, dieses passt die Farbtemperatur des Bildschirms der Außenhelligkeit an.&#xA;Jetzt kann man es auch auf iOS installieren, allerdings über den Umweg XCode. Eine Anleitung findet sich bei hier.</description>
+    </item>
+    <item>
+      <title>Logitech Mäuse und OS X</title>
+      <link>http://localhost:1313/posts/logitech-maeuse-und-os-x/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/logitech-maeuse-und-os-x/</guid>
+      <description>Ich besitze eine Logitech G400s Maus und benutze aktuell OS X 10.11 (El Capitain). Die Logitech Software unter OS X ist einfach nur schlecht und ist selten aktuell.&#xA;So habe ich gerade auf El Capitain aktualisiert und nun funktionieren mal wieder meine Vor- und Zurück-Tasten nicht mehr. Bei der Lösungssuche bin ich auf die Software BetterTouchTool gestoßen und ich kann nur sagen - sie funktioniert einwandfrei. Die Logitech Software habe ich von der Platte verbannt.</description>
+    </item>
+    <item>
+      <title>Schriftart zum Coden: Hack</title>
+      <link>http://localhost:1313/posts/schriftart-zum-coden-hack/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/schriftart-zum-coden-hack/</guid>
+      <description>Hack ist eine Schriftart, die speziell für Programmierer entwickelt wurde und noch dazu quelloffen ist.&#xA;Sie ist natürlich &amp;ldquo;mono type&amp;rdquo; und hat distinkte Zeichen, wie in der Abbildung zu sehen ist. Ich benutze sie seit ein paar Wochen und bin sehr zufrieden. Nur der Unterstrich könnte etwas markanter sein.&#xA;Hier kommt man zum Repository.</description>
+    </item>
+    <item>
+      <title>Workflow: Alfred</title>
+      <link>http://localhost:1313/posts/workflow-alfred/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workflow-alfred/</guid>
+      <description>Das Programm Alfred ist ein ziemlicher Allrounder was seine Funktionen angeht. Einmal installiert, wirkt es wie ein zweites Spotlight. Über eine Tastenkombination (bei mir alt + space) öffnet sich zunächst nur eine Kommandozeile. Tippt man ein beliebiges Wort, durchsucht Alfred den Mac nach diesem Stichwort, egal ob es sich um einen Kontakt, eine Datei oder ein Programm handelt.&#xA;Ich möchte in diesem Eintrag nicht auf alle Funktionen eingehen, sondern viel mehr ein paar wichtige Funktionen für meinen Arbeits-Workflow (und oft Alltags-Workflow) hervorheben.</description>
+    </item>
+    <item>
+      <title>pygame mit Python 3.4 und MacPorts auf dem Mac</title>
+      <link>http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/</guid>
+      <description>Möchte man pygame auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.&#xA;Zunächst installiert man Python 3.4, falls man das eh nicht schon getan hat Wer XCode oder die XCode Developertools noch nicht hat, der wird hier oder im Mac App Store fündig. Anschließend besorgt man sich MacPorts (zur Installation einiger Pakete) und XQuartz (grafische Darstellung) Zuletzt lädt man noch diese Datei herunter (angepasste Datei zur Installation von pygame) Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:</description>
+    </item>
+    <item>
+      <title>f.lux Vorstellung</title>
+      <link>http://localhost:1313/posts/f-lux-vorstellung/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/f-lux-vorstellung/</guid>
+      <description>f.lux ist kleines nützliches Tool, das die Kontrolle über die Bildschirmanzeige übernimmt. Dies tut es nicht wahllos, sondern passt die Farbtemparatur am Monitor der Außenhelligkeit an.&#xA;Dazu muss man einmalig angeben, wo man sich befindet, damit f.lux die Zeitdaten abrufen kann. Von nun an wird dem Bildschirm vor allem blaues Licht entzogen, sobald es draußen dunkel wird. Warum sollte man einem Programm erlauben seinem Monitor einen Rotstich zu verpassen? Blaues Licht hält uns künstlich wach und verhindert, dass man müde wird.</description>
+    </item>
+    <item>
+      <title>ebay Passwort mit Passwortmanager ändern</title>
+      <link>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</guid>
+      <description>English version below.&#xA;Zurzeit ist ebay in den Nachrichten, da sie Zugriffe auf Passwörter der Nutzer festgestellt haben.&#xA;Leider haben sie merkwürdige Sicherheitsregeln beim Ändern des Passworts. Sie unterbinden die Verwendung von Copy/Paste. Was zur Folge hat, dass man keinen Passwortmanager verwenden kann.&#xA;Falls man dennoch einen Passwortmanager verwenden will, muss man wie folgt vorgehen.&#xA;Man öffnet die Konsole des Browsers (Firefox-Mac Command + Alt + K). Dort gibt man nun folgendes ein:</description>
+    </item>
+    <item>
+      <title>Xbox 360: &#34;Disk kann nicht gelesen werden&#34;</title>
+      <link>http://localhost:1313/posts/xbox-360-disk-kann-nicht-gelesen-werden/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xbox-360-disk-kann-nicht-gelesen-werden/</guid>
+      <description>Ich hatte vor einiger Zeit immer wieder mal Probleme mit meiner Xbox 360. Ein Spiel stürtzte regelmäßig bei der Auswahl eines bestimmten Levels ab. Später startete das Spiel manchmal sogar nicht.&#xA;Also habe ich mir die DVD genau auf Kratzer untersucht und auch einen winzigen Gefunden, der allerdings sehr tief erschien. Der Fehler trat aber auch mit einer anderen DVD des gleichen Spiels auf.&#xA;Auch die Neuinstallation des Spiels oder das Starten direkt von DVD hat keine Abhilfe geschaffen.</description>
+    </item>
+    <item>
+      <title>OS X: scp aktivieren</title>
+      <link>http://localhost:1313/posts/292/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/292/</guid>
+      <description>Damit man von einem entfernten Rechner (zum Beispiel einem Raspberry Pi) Dateien über SSH mit scp auf den eigenen Rechner bekommt, muss unter OS X zunächst die Option &amp;ldquo;Entfernte Anmeldung&amp;rdquo; aktiviert werden.&#xA;Dazu geht man in die Systemeinstellungen und wählt den Punkt Freigaben. Dort muss nun ein Haken bei Entfernte Anmeldung gesetzt werden. Dies muss anschließend mit dem Administrator-Kennwort bestätigt werden.&#xA;Unterlässt man diese Schritte, erhält man folgende Fehlermeldung:&#xA;ssh: connect to host port 22: Connection refused</description>
+    </item>
+    <item>
+      <title>Automatisierung mit Shell Script (Bash) und curl</title>
+      <link>http://localhost:1313/posts/automatisierung-mit-shell-script-bash-und-curl/</link>
+      <pubDate>Mon, 06 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/automatisierung-mit-shell-script-bash-und-curl/</guid>
+      <description>Bei einem Ausflug durchs Netz bin ich auf ein kostenloses Buch gestoßen, welches ich gerne haben wollte. Leider war das Buch nur in einzelnen Kapiteln zu haben und ich hatte wenig Lust 34 einzelne PDF-Dateien von Hand zu klicken. Daher habe ich ein kleines Shell Script geschrieben, mit dem das automatisch geht.&#xA;Dazu braucht man cURL (Client for URLs) und einen Texteditor. Hier ist es für OS X erklärt, sollte so aber auch problemlos auf Linux, etc.</description>
+    </item>
+    <item>
+      <title>Verschlüsselt chatten mit Jabber – Detailanleitung Teil 2: Windows</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-windows/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-windows/</guid>
+      <description>Auch unter Windows ist es leicht möglich, verschlüsselt zu chatten. Eine Programmempfehlung hierfür von mir ist ganz klar Miranda. Dieser kleine, unscheinbare IM hat ordentlich Power unter der Haube und lässt sich beliebig durch Addons erweitern. Da es zum Thema &amp;ldquo;Verschlüsselt Chatten mit Miranda&amp;rdquo; einen super Eintrag in deutsch gibt, verweise ich an dieser Stelle auf &amp;ldquo;Die Raven Homepage&amp;rdquo;. Punkt 3 bei der Installation kann vernachlässigt werden, da er mir veraltet erscheint (Achtung - gefährliches Halbwissen).</description>
+    </item>
+    <item>
+      <title>Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</guid>
+      <description>Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.&#xA;Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.&#xA;Zunächst wählt man bei Adium unter &amp;ldquo;Datei&amp;rdquo; den Punkt &amp;ldquo;Einstellungen&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Verschlüsselung</title>
+      <link>http://localhost:1313/posts/verschlusselung/</link>
+      <pubDate>Sat, 06 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselung/</guid>
+      <description>Noch nie war Verschlüsseln der Daten so leicht und gleichzeitig so wichtig! Daher hier ein paar Dinge, die man beachten kann und auch sollte:&#xA;Emails kann man sehr leicht mit der Sammlung von gpgtools.org/ verschlüsseln.&#xA;Für Dateien, Cloudspeicher und externe Medien (USB-Stick, Festplatten, etc) empfiehlt sich TrueCrypt. Eine Anleitung für die Dropbox findet sich zum Beispiel hier und hier.&#xA;Mit Jabber kann man verschlüsselt chatten. Eine Anleitung dazu findet sich hier.</description>
+    </item>
+    <item>
+      <title>Divvy</title>
+      <link>http://localhost:1313/posts/divvy/</link>
+      <pubDate>Thu, 30 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/divvy/</guid>
+      <description>Ich möchte in diesem Eintrag das Programm Divvy vorstellen. Es ist ein feiner Fenstermanager für Mac und Windows. Ich schreibe hier konkret über die Mac-Variante, gehe aber davon aus, dass die Windows-Variante sehr ähnlich ist.&#xA;Divvy hilft einem dabei die Fenster an den richtigen Ort zu bringen. Jeder, der in seinem Workflow viele verschiedene Programme benutzt, kennt das Problem, dass man viel Zeit mit &amp;ldquo;Fenstermanagement&amp;rdquo; verbringt. Einen Teil davon nimmt einem Divvy nun ab.</description>
+    </item>
+    <item>
+      <title>OS X Mission Control Lag Fix</title>
+      <link>http://localhost:1313/posts/os-x-mission-control-lag-fix/</link>
+      <pubDate>Mon, 27 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-mission-control-lag-fix/</guid>
+      <description>Ich hatte heute ein mysteriöses Problem mit der Animation von Mission Control, das auch schon mal unter Lion auftrat. Damals habe ich noch neu installiert, weil es mich so genervt hat. Es ist zwar rein kosmetischer Art, aber ich bin gut darin, mich in so etwas reinzusteigern.&#xA;Es äußert sich durch eine ruckartige Animation beim Aufruf von Mission Control. Der Hintergrund bleibt flüssig animiert, aber die Fenster springen vom Anfang bis zum Ende der Animation, kein flüssiger Übergang dazwischen.</description>
+    </item>
+    <item>
+      <title>OS X: Fehler bei Updates beheben</title>
+      <link>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</link>
+      <pubDate>Fri, 24 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</guid>
+      <description>Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.&#xA;Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:&#xA;Terminal starten:&#xA;cd /Library/Updates/&#xA;Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781</description>
+    </item>
+    <item>
+      <title>RaspBMC Musik über iTunes unter OS X</title>
+      <link>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</guid>
+      <description>Wer einen Raspberry Pi mit RaspBMC besitzt, kennt vielleicht das Problem: Musik von iTunes zum Pi über Airplay senden funktioniert nicht.&#xA;Bei mir war das so unter OS X 10.8.3 mit einem MacBook Pro Early 2011 über WLAN. Es ging mit iPhone, aber nicht von iTunes über den Mac. Deaktivieren von IPV6 hat das behoben:&#xA;networksetup -setv6off Wi-Fi&#xA;Das in das Terminal eingeben, mit Passwort bestätigen und los geht es!</description>
+    </item>
+    <item>
+      <title>Game of Life</title>
+      <link>http://localhost:1313/posts/game-of-life/</link>
+      <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/game-of-life/</guid>
+      <description>Ich habe mal ein &amp;ldquo;Game of Life&amp;rdquo; von Conway in Matlab programmiert und als Video gespeichert. Wem Game of Life nichts sagt, der sollte sich mal das oder das zu Gemüte führen.&#xA;Hier gibt es das Repository auf GitHub&#xA;EDIT: Ich habe das Programm nun so umgebaut, dass man die Startpunkte selbst mit der Maus setzen kann. Außerdem habe ich einen Bug im Algorithmus behoben, so dass es sich nun ordnungsgemäß verhält.</description>
+    </item>
+    <item>
+      <title>iOS Sleep Timer</title>
+      <link>http://localhost:1313/posts/ios-sleep-timer/</link>
+      <pubDate>Tue, 09 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ios-sleep-timer/</guid>
+      <description>Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht&amp;rsquo;s:&#xA;Die Uhr.app starten und unten rechts das Feld &amp;ldquo;Timer&amp;rdquo; wählen. Dort die gewünschte Zeit einstellen und als Klingelton &amp;ldquo;Wiedergabe stoppen&amp;rdquo; auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.</description>
+    </item>
+    <item>
+      <title>OS X MATLAB &#34;java.lang.OutOfMemoryError: Java heap space&#34;</title>
+      <link>http://localhost:1313/posts/os-x-matlab-java-lang-outofmemoryerror-java-heap-space/</link>
+      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-matlab-java-lang-outofmemoryerror-java-heap-space/</guid>
+      <description>Beim Arbeiten mit Matlab in Kombination mit großen Videodateien (200 Hz einer Casio Exilim ZR-Serie) kam es bei mir häufiger zu der Fehlermeldung:&#xA;java.lang.OutOfMemoryError: Java heap space&#xA;Die Fehlermeldung hängt mit dem Speicher zusammen, dem Java zur Verfügung steht. Um welchen Speicher es sich genau handelt, kann ich nicht genau sagen.&#xA;Um herauszufinden wieviel Speicher Java in Matlab zurzeit zugesichert bekommt, tippt man folgendes in die Kommandozeile von Matlab:&#xA;java.lang.Runtime.getRuntime.maxMemory</description>
+    </item>
+    <item>
+      <title>OS X Videos richtig convertieren</title>
+      <link>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</guid>
+      <description>Ich musste mich mal wieder mit dem leidigen Thema &amp;ldquo;Videokonvertierung&amp;rdquo; beschäftigen. Ziel war es ein Video (.MTS) am Mac zu bearbeiten und anschließend Windows Power Point tauglich (.MPG) zu machen. Wenn man ganz normal in einer Suchmaschine nach den Begriffen &amp;ldquo;Video&amp;rdquo;, &amp;ldquo;Konvertierung&amp;rdquo; und &amp;ldquo;Mac&amp;rdquo; sucht, bekommt man fast ausschließlich kostenpflichtigen Schrott unter die Nase gerieben. Mit FFmpeg bin ich fündig geworden. Dabei handelt es sich um ein mächtiges Kommandozeilen-Tool. Ist zunächst nicht ganz einfach, einmal durchblickt aber unheimlich komfortabel.</description>
+    </item>
+    <item>
+      <title>OS X Kinect einrichten</title>
+      <link>http://localhost:1313/posts/90/</link>
+      <pubDate>Thu, 07 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/90/</guid>
+      <description>Ich habe heute meinen Kinect-Sensor bekommen und natürlich prompt versucht ihn an meinem Mac anzuschließen. Das war kein leichtes Unterfangen, aber ich will es im Folgenden erklären. Warnung: Wenn man noch nie oder nur sehr selten im Terminal gearbeitet hat, keine Ahnung hat was git, MacPorts etc. ist, dann sollte man es vielleicht besser lassen, oder viel Zeit und Ehrgeiz mitbringen. Und nun zur Anleitung: Man sollte sich zunächst folgendes besorgen:</description>
+    </item>
+    <item>
+      <title>Bidvoy</title>
+      <link>http://localhost:1313/posts/bidvoy/</link>
+      <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bidvoy/</guid>
+      <description>Wer, wie ich, öfters bei eBay kauft oder verkauft, freut sich über kleine Helfer, die einem das Auktionsleben erleichtern. So ein kleiner Helfer ist Bidvoy. Auf der Internetseite kann man nach Artikeln suchen und bekommt anschließend einige Statistiken geliefert. Da ist alles wichtige von durchschnittlicher Verkaufspreis bis hin zum optimalen Verkaufszeitpunkt dabei. Aber seht selbst:&#xA;PS: Gleichzeitig ist dieser Post ein Test, um Wordpress for iOS zu testen.</description>
+    </item>
+    <item>
+      <title>Pocket (Formerly Read it Later)</title>
+      <link>http://localhost:1313/posts/pocket-formerly-read-it-later/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pocket-formerly-read-it-later/</guid>
+      <description>Pocket ist einer dieser kleinen Helfer, die ich auf keinen Fall mehr in meinem Internet-Alltag missen möchte.&#xA;Also was macht Pocket genau? Letztendlich speichert es Seiten ab, damit man sie später gesammelt lesen kann. Zusätzlich bringt es das Material in eine optisch ansprechende Artikelform. Das bedeutet, die Artikel sind in schwarzer Schrift auf weißem Hintergrund mit allen Bildern, die auch auf der Internetseite zu sehen waren. Außerdem werden mehrseitige Artikel zu einem zusammengefasst.</description>
+    </item>
+    <item>
+      <title>Posterous Backup ist da (Edit: Nun auch integriert)</title>
+      <link>http://localhost:1313/posts/posterous-backup-ist-da/</link>
+      <pubDate>Mon, 21 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posterous-backup-ist-da/</guid>
+      <description>Nachdem ich schon aufgehört hatte zu checken, ob Posterous mir das Backup endlich zum Runterladen bereitstellt, hat es nun wirklich geklappt. Das Backup ist da! Wenn ich die Zeit finde, füge ich die alten Posts später noch ein.&#xA;EDIT: Nun sind die alten Posts eingepflegt.</description>
+    </item>
+    <item>
+      <title>Umzug</title>
+      <link>http://localhost:1313/posts/umzug/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/umzug/</guid>
+      <description>Da Posterous nicht mehr weiterentwickelt oder womöglich sogar ganz eingestellt wird (Link, Link), habe ich mich entschlossen hier bei wordpress.com weiter zu bloggen. Ich warte momentan noch auf das Backup von Posterous, welches mir via Email zugesendet werden soll. Dann werden hier auch bald die alten Posts zu lesen sein.</description>
+    </item>
+    <item>
+      <title>MKV Datei: DTS Tonspur in AC3 umwandeln</title>
+      <link>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</guid>
+      <description>Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.&#xA;Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.</description>
+    </item>
+    <item>
+      <title>OS X Inaktiven Arbeitsspeicher freigeben</title>
+      <link>http://localhost:1313/posts/os-x-inaktiven-arbeitsspeicher-freigeben/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-inaktiven-arbeitsspeicher-freigeben/</guid>
+      <description>Manchmal geben beendete Programme den belegten Arbeitsspeicher nicht frei und verlangsamen so das System. Um den inaktiven Speicher im RAM freizugeben hilft folgender Befehl im Terminal:&#xA;purge&#xA;Danach sollte der inaktive Speicher wieder zu Verfügung stehen.</description>
+    </item>
+    <item>
+      <title>ISO aus VIDEO_TS Ordner erstellen</title>
+      <link>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</guid>
+      <description>Um unter OS X 10.8 ein ISO Image aus einem VIDEO_TS Ordner zu erstellen, wird nur folgender Befehl im Terminal benötigt:&#xA;hdiutil makehybrid -iso -o Image.iso /input_path&#xA;Image.iso bezeichnet in diesem Beispiel den Namen, /input_path den VIDEO_TS Ordner.</description>
+    </item>
+    <item>
+      <title>Onlinebestellung und dessen Kehrseite</title>
+      <link>http://localhost:1313/posts/onlinebestellung-und-dessen-kehrseite/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/onlinebestellung-und-dessen-kehrseite/</guid>
+      <description>Vor gut einer Woche habe ich mir ein neues Fahrrad bestellt. Es sollte ein schönes Vintage-Rennrad werden, das ich über den Winter noch etwas umbauen wollte.&#xA;Leider haben mir grandiose Verpackungs- und Lieferungskünste einen Strich durch die Rechnung gemacht.&#xA;See the full gallery on Posterous</description>
+    </item>
+    <item>
+      <title>Google Bildersuche: &#34;Größe - genau...&#34; vermisst!</title>
+      <link>http://localhost:1313/posts/google-bildersuche-grose-genau-vermisst/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/google-bildersuche-grose-genau-vermisst/</guid>
+      <description>Mit der Verschlimmbesserung der Google Bildersuche ist die Option nach einer genauen Bildgröße verloren gegangen. Mit folgendem &amp;ldquo;Code&amp;rdquo; kann man trotzdem noch nach genauen Maßen suchen:&#xA;Suchwort imagesize:HÖHExBREITE&#xA;Danach gibt es nur noch Ergebnisse in der gewünschten Größe. Allerdings scheint diese Option nicht mehr optimal integriert zu sein. Jedenfalls führt sie bei mir zu folgendem Anzeigefehler:&#xA;Bildschirmfoto_2012-12-01_um_10</description>
+    </item>
+    <item>
+      <title>Java unter OS X 10.8 mit Chrome reaktivieren</title>
+      <link>http://localhost:1313/posts/java-unter-os-x-10-8-mit-chrome-reaktivieren/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-unter-os-x-10-8-mit-chrome-reaktivieren/</guid>
+      <description>Wegen der bedenklichen Sicherheitslücken hat Apple Java in einem Update deaktiviert. Ab dann muss man sich selbst um die Java-Beschaffung kümmern. Da Chrome unter OS X nicht mit der akutellen Java Version 7 harmoniert, muss man sich selbst zu helfen wissen.&#xA;HIER kommt man zu einer Support-Seite von Apple, wo die Vorgehensweise zur Wiederbeschaffung für Chrome-User erklärt wird.&#xA;Damit stellt man das &amp;ldquo;alte&amp;rdquo; Java 6 wieder her. Es sollte jeder selbst entscheiden, ob er Java braucht und eben die Sicherheitslücken in Kauf nimmt (obwohl diese meines Wissens auch noch in Version 7 enthalten sind).</description>
+    </item>
+    <item>
+      <title>OS X 10.8 Doppelte Einträge in &#34;Öffnen mit&#34; entfernen</title>
+      <link>http://localhost:1313/posts/os-x-10-8-doppelte-eintrage-in-offnen-mit-entfernen/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-10-8-doppelte-eintrage-in-offnen-mit-entfernen/</guid>
+      <description>Unter OS X 10.8 müllt sich &amp;ldquo;Öffnen mit&amp;rdquo; im Kontextmenü nach und nach durch mehrfache Einträge der selben Programme zu. Um dem Einhalt zu gebieten hilft folgender Terminalbefehl:&#xA;/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/&#xA;LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local&#xA;-domain system -domain user&#xA;Mit diesem Befehl werden die Launchservices aktualisiert.&#xA;Leider finden sich dort immer wieder mal Mehrfacheinträge ein, so dass man diese Prozessur ab und zu wiederholen muss. Meine Beobachtung ist, dass dies bei Updates betroffener Anwendungen passiert.</description>
+    </item>
+    <item>
+      <title>Problembehebung selbst-gemuxter MKVs</title>
+      <link>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</guid>
+      <description>Ich hab früher öfters Tonspuren extrahiert, umgewandelt und verschoben. Dazu war das Programm mkvtoolnix perfekt geeignet.&#xA;Leider hatte ich bei meinen aktuellen Versuchen keinen Erfolg. Mein Streamer hat entweder keinen Ton abgespielt oder ist einfach abgestürzt. Mit folgenden Einstellungen bin ich allerdings zum Ziel gekommen:&#xA;Programm starten Mit add Datei auswählen Tonspurreihenfolge ändern mit up und down Gewünschte Tonspur markieren In General track options Sprache auswählen Standardsprache setzen (Default track flag auf yes) Extra options auswählen und unter Compression die Option none wählen Zum Umwandeln Start muxing anklicken </description>
+    </item>
+    <item>
+      <title>Linksammlung 24.09.2012</title>
+      <link>http://localhost:1313/posts/linksammlung-24-09-2012/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linksammlung-24-09-2012/</guid>
+      <description> Lesenswertes iOS 6 Review von imore.com Rezept mit Äpfeln, das demnächst ausprobiert wird Und noch eins </description>
+    </item>
+    <item>
+      <title>Gravatar</title>
+      <link>http://localhost:1313/posts/gravatar/</link>
+      <pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gravatar/</guid>
+      <description>Gravtar ist ein Dienst, der einen Avatar mit einer Emailadresse verknüpft. So kann man zum Beispiel unter Angabe der eigenen Emailadresse auf Blogs kommentieren und hat gleich den passenden Avatar dazu. Vorausgesetzt der Blog untersützt Gravatar.&#xA;Ich finde das eine nette Idee, möchte aber auch gleich auf die Kehrseite hinweisen. Denn sobald etwas in einenm zentralen Dienst ausgelagert wird, ist es natürlich sehr leicht Daten zu sammeln und diese anschließend auszuwerten.</description>
+    </item>
+    <item>
+      <title>Für Serienfans - Episodes (iOS) kostenlos</title>
+      <link>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</guid>
+      <description>Wenn man so ein Serienjunkie ist wie ich, dann ist die App &amp;ldquo;Episodes&amp;rdquo; genau das Richtige. Sie verwaltet komfortabel alle Serien, die man gerne sieht, listet alle Folgen/Staffeln und wann diese weitergehen. Finde ich ziemlich praktisch, vor allem wenn gerade Pause ist - so vergisst man den Start der neuen Staffel sicher nicht.&#xA;Episodes ist zurzeit noch kostenlos zu haben und bisher nur für iOS erhältlich.</description>
+    </item>
+    <item>
+      <title>Perseid Meteor Shower</title>
+      <link>http://localhost:1313/posts/perseid-meteor-shower/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/perseid-meteor-shower/</guid>
+      <description>Nächtlicher Himmel im Zeitraffer von Jeff Sullivan.&#xA;Beeindruckend was da oben so alles passiert. Wenn man ein wenig darüber nachdenkt, ist es erstaunlich was uns aktuelle Technik ermöglicht.&#xA;[youtube http://www.youtube.com/watch?v=vroLnrBhbmk]</description>
+    </item>
+  </channel>
+</rss>

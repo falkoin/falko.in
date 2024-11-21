@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="I often use Sublime Text 3 for creating LaTeX documents. When doing so I really need spell checking for my texts to avoid producing gibberish. Fortunately that feature is already included, only dictionaries have to be added to support you preferred language.
+Here you can find basic information on how to achieve that from the official homepage.
+Unfortunately it wasn&rsquo;t self explanatory to me. To get new dictionaries working, go to https://github.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Enabling additional languages for spell checking in Sublime Text 3">
+  <meta name="twitter:description" content="I often use Sublime Text 3 for creating LaTeX documents. When doing so I really need spell checking for my texts to avoid producing gibberish. Fortunately that feature is already included, only dictionaries have to be added to support you preferred language.
+Here you can find basic information on how to achieve that from the official homepage.
+Unfortunately it wasn’t self explanatory to me. To get new dictionaries working, go to https://github.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/sublime/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="Enabling additional languages for spell checking in Sublime Text 3">
+  <meta property="og:description" content="I often use Sublime Text 3 for creating LaTeX documents. When doing so I really need spell checking for my texts to avoid producing gibberish. Fortunately that feature is already included, only dictionaries have to be added to support you preferred language.
+Here you can find basic information on how to achieve that from the official homepage.
+Unfortunately it wasn’t self explanatory to me. To get new dictionaries working, go to https://github.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-20T12:13:45+01:00">
+    <meta property="article:modified_time" content="2020-01-20T12:13:45+01:00">
+    <meta property="article:tag" content="Sublime Text 3">
+    <meta property="article:tag" content="Spell Checking">
+
+
+    <title>
+  Enabling additional languages for spell checking in Sublime Text 3 · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/sublime/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/sublime/">
+              Enabling additional languages for spell checking in Sublime Text 3
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2020-01-20T12:13:45&#43;01:00'>
+                20 January 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/solutions/">solutions</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/sublime-text-3/">sublime text 3</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/spell-checking/">spell checking</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>I often use Sublime Text 3 for creating LaTeX documents. When doing so I really need spell checking for my texts to avoid producing gibberish. Fortunately that feature is already included, only dictionaries have to be added to support you preferred language.</p>
+<p><a href="https://www.sublimetext.com/docs/3/spell_checking.html">Here</a> you can find basic information on how to achieve that from the official homepage.</p>
+<p>Unfortunately it wasn&rsquo;t self explanatory to me. To get new dictionaries working, go to <a href="https://github.com/titoBouzout/Dictionaries">https://github.com/titoBouzout/Dictionaries</a>, select the language you are looking for and make sure to download the <strong>raw</strong> version. If you just save the link via right click you will save the GitHub page and not the raw file. Place the <strong>.dic</strong> and <strong>.aff</strong> files in <em>Packages/User/</em>
+and follow the instructions from the official site.</p>
+<p>Credit goes to <strong>mara</strong>, who answered this question on <a href="https://stackoverflow.com/a/26315954/4583482">stackoverflow</a></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

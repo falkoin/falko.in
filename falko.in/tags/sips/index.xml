@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sips on Falko Döhring</title>
+    <link>http://localhost:1313/tags/sips/</link>
+    <description>Recent content in Sips on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2020 12:28:32 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the command-line in macOS to resize images</title>
+      <link>http://localhost:1313/posts/resize-images-with-the-command-line/</link>
+      <pubDate>Mon, 28 Dec 2020 12:28:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/resize-images-with-the-command-line/</guid>
+      <description>Creating the photo section for this blog I had the need to resize many images at once. Sure enough, I didn&amp;rsquo;t want to do this by hand and also found it cumbersome to create a batch process in an image manipulation program like Affinity Photo or Photoshop.&#xA;After a quick web-search I stumbled upon the tool sips.&#xA;sips -Z 2000 *.jpg This command resizes all jpg files in a folder to a maximum height or width of 2000, while keeping the aspect ratio.</description>
+    </item>
+  </channel>
+</rss>

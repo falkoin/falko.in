@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Error on Falko Döhring</title>
+    <link>http://localhost:1313/tags/error/</link>
+    <description>Recent content in Error on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/error/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xbox 360: &#34;Disk kann nicht gelesen werden&#34;</title>
+      <link>http://localhost:1313/posts/xbox-360-disk-kann-nicht-gelesen-werden/</link>
+      <pubDate>Fri, 17 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/xbox-360-disk-kann-nicht-gelesen-werden/</guid>
+      <description>Ich hatte vor einiger Zeit immer wieder mal Probleme mit meiner Xbox 360. Ein Spiel stürtzte regelmäßig bei der Auswahl eines bestimmten Levels ab. Später startete das Spiel manchmal sogar nicht.&#xA;Also habe ich mir die DVD genau auf Kratzer untersucht und auch einen winzigen Gefunden, der allerdings sehr tief erschien. Der Fehler trat aber auch mit einer anderen DVD des gleichen Spiels auf.&#xA;Auch die Neuinstallation des Spiels oder das Starten direkt von DVD hat keine Abhilfe geschaffen.</description>
+    </item>
+  </channel>
+</rss>

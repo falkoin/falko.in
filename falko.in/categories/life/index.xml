@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Falko Döhring</title>
+    <link>http://localhost:1313/categories/life/</link>
+    <description>Recent content in Life on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>f.lux Vorstellung</title>
+      <link>http://localhost:1313/posts/f-lux-vorstellung/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/f-lux-vorstellung/</guid>
+      <description>f.lux ist kleines nützliches Tool, das die Kontrolle über die Bildschirmanzeige übernimmt. Dies tut es nicht wahllos, sondern passt die Farbtemparatur am Monitor der Außenhelligkeit an.&#xA;Dazu muss man einmalig angeben, wo man sich befindet, damit f.lux die Zeitdaten abrufen kann. Von nun an wird dem Bildschirm vor allem blaues Licht entzogen, sobald es draußen dunkel wird. Warum sollte man einem Programm erlauben seinem Monitor einen Rotstich zu verpassen? Blaues Licht hält uns künstlich wach und verhindert, dass man müde wird.</description>
+    </item>
+    <item>
+      <title>Linksammlung 24.09.2012</title>
+      <link>http://localhost:1313/posts/linksammlung-24-09-2012/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linksammlung-24-09-2012/</guid>
+      <description> Lesenswertes iOS 6 Review von imore.com Rezept mit Äpfeln, das demnächst ausprobiert wird Und noch eins </description>
+    </item>
+    <item>
+      <title>Perseid Meteor Shower</title>
+      <link>http://localhost:1313/posts/perseid-meteor-shower/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/perseid-meteor-shower/</guid>
+      <description>Nächtlicher Himmel im Zeitraffer von Jeff Sullivan.&#xA;Beeindruckend was da oben so alles passiert. Wenn man ein wenig darüber nachdenkt, ist es erstaunlich was uns aktuelle Technik ermöglicht.&#xA;[youtube http://www.youtube.com/watch?v=vroLnrBhbmk]</description>
+    </item>
+  </channel>
+</rss>

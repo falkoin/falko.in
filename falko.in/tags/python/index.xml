@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Falko Döhring</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Feb 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>pygame mit Python 3.4 und MacPorts auf dem Mac</title>
+      <link>http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/</guid>
+      <description>Möchte man pygame auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.&#xA;Zunächst installiert man Python 3.4, falls man das eh nicht schon getan hat Wer XCode oder die XCode Developertools noch nicht hat, der wird hier oder im Mac App Store fündig. Anschließend besorgt man sich MacPorts (zur Installation einiger Pakete) und XQuartz (grafische Darstellung) Zuletzt lädt man noch diese Datei herunter (angepasste Datei zur Installation von pygame) Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:</description>
+    </item>
+  </channel>
+</rss>

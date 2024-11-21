@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sleep on Falko Döhring</title>
+    <link>http://localhost:1313/tags/sleep/</link>
+    <description>Recent content in Sleep on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sleep/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>f.lux Vorstellung</title>
+      <link>http://localhost:1313/posts/f-lux-vorstellung/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/f-lux-vorstellung/</guid>
+      <description>f.lux ist kleines nützliches Tool, das die Kontrolle über die Bildschirmanzeige übernimmt. Dies tut es nicht wahllos, sondern passt die Farbtemparatur am Monitor der Außenhelligkeit an.&#xA;Dazu muss man einmalig angeben, wo man sich befindet, damit f.lux die Zeitdaten abrufen kann. Von nun an wird dem Bildschirm vor allem blaues Licht entzogen, sobald es draußen dunkel wird. Warum sollte man einem Programm erlauben seinem Monitor einen Rotstich zu verpassen? Blaues Licht hält uns künstlich wach und verhindert, dass man müde wird.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ebay on Falko Döhring</title>
+    <link>http://localhost:1313/tags/ebay/</link>
+    <description>Recent content in Ebay on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 May 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ebay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ebay Passwort mit Passwortmanager ändern</title>
+      <link>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</guid>
+      <description>English version below.&#xA;Zurzeit ist ebay in den Nachrichten, da sie Zugriffe auf Passwörter der Nutzer festgestellt haben.&#xA;Leider haben sie merkwürdige Sicherheitsregeln beim Ändern des Passworts. Sie unterbinden die Verwendung von Copy/Paste. Was zur Folge hat, dass man keinen Passwortmanager verwenden kann.&#xA;Falls man dennoch einen Passwortmanager verwenden will, muss man wie folgt vorgehen.&#xA;Man öffnet die Konsole des Browsers (Firefox-Mac Command + Alt + K). Dort gibt man nun folgendes ein:</description>
+    </item>
+    <item>
+      <title>Bidvoy</title>
+      <link>http://localhost:1313/posts/bidvoy/</link>
+      <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bidvoy/</guid>
+      <description>Wer, wie ich, öfters bei eBay kauft oder verkauft, freut sich über kleine Helfer, die einem das Auktionsleben erleichtern. So ein kleiner Helfer ist Bidvoy. Auf der Internetseite kann man nach Artikeln suchen und bekommt anschließend einige Statistiken geliefert. Da ist alles wichtige von durchschnittlicher Verkaufspreis bis hin zum optimalen Verkaufszeitpunkt dabei. Aber seht selbst:&#xA;PS: Gleichzeitig ist dieser Post ein Test, um Wordpress for iOS zu testen.</description>
+    </item>
+  </channel>
+</rss>

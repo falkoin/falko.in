@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht&rsquo;s:
+Die Uhr.app starten und unten rechts das Feld &ldquo;Timer&rdquo; wählen. Dort die gewünschte Zeit einstellen und als Klingelton &ldquo;Wiedergabe stoppen&rdquo; auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="iOS Sleep Timer">
+  <meta name="twitter:description" content="Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht’s:
+Die Uhr.app starten und unten rechts das Feld “Timer” wählen. Dort die gewünschte Zeit einstellen und als Klingelton “Wiedergabe stoppen” auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/ios-sleep-timer/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="iOS Sleep Timer">
+  <meta property="og:description" content="Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht’s:
+Die Uhr.app starten und unten rechts das Feld “Timer” wählen. Dort die gewünschte Zeit einstellen und als Klingelton “Wiedergabe stoppen” auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-04-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2013-04-09T00:00:00+00:00">
+    <meta property="article:tag" content="Ios">
+    <meta property="article:tag" content="Ipad">
+    <meta property="article:tag" content="Iphone">
+
+
+    <title>
+  iOS Sleep Timer · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/ios-sleep-timer/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ios-sleep-timer/">
+              iOS Sleep Timer
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2013-04-09T00:00:00Z'>
+                9 April 2013
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/ios/">ios</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/ipad/">ipad</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/iphone/">iphone</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht&rsquo;s:</p>
+<p>Die Uhr.app starten und unten rechts das Feld &ldquo;Timer&rdquo; wählen. Dort die gewünschte Zeit einstellen und als Klingelton &ldquo;Wiedergabe stoppen&rdquo; auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pocket on Falko Döhring</title>
+    <link>http://localhost:1313/tags/pocket/</link>
+    <description>Recent content in Pocket on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 26 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pocket/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pocket (Formerly Read it Later)</title>
+      <link>http://localhost:1313/posts/pocket-formerly-read-it-later/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pocket-formerly-read-it-later/</guid>
+      <description>Pocket ist einer dieser kleinen Helfer, die ich auf keinen Fall mehr in meinem Internet-Alltag missen möchte.&#xA;Also was macht Pocket genau? Letztendlich speichert es Seiten ab, damit man sie später gesammelt lesen kann. Zusätzlich bringt es das Material in eine optisch ansprechende Artikelform. Das bedeutet, die Artikel sind in schwarzer Schrift auf weißem Hintergrund mit allen Bildern, die auch auf der Internetseite zu sehen waren. Außerdem werden mehrseitige Artikel zu einem zusammengefasst.</description>
+    </item>
+  </channel>
+</rss>

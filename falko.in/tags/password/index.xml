@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Password on Falko Döhring</title>
+    <link>http://localhost:1313/tags/password/</link>
+    <description>Recent content in Password on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 May 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/password/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ebay Passwort mit Passwortmanager ändern</title>
+      <link>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</link>
+      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ebay-passwort-mit-passwortmanager-andern/</guid>
+      <description>English version below.&#xA;Zurzeit ist ebay in den Nachrichten, da sie Zugriffe auf Passwörter der Nutzer festgestellt haben.&#xA;Leider haben sie merkwürdige Sicherheitsregeln beim Ändern des Passworts. Sie unterbinden die Verwendung von Copy/Paste. Was zur Folge hat, dass man keinen Passwortmanager verwenden kann.&#xA;Falls man dennoch einen Passwortmanager verwenden will, muss man wie folgt vorgehen.&#xA;Man öffnet die Konsole des Browsers (Firefox-Mac Command + Alt + K). Dort gibt man nun folgendes ein:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.
+Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:
+Terminal starten:
+cd /Library/Updates/
+Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OS X: Fehler bei Updates beheben">
+  <meta name="twitter:description" content="Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.
+Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:
+Terminal starten:
+cd /Library/Updates/
+Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781">
+
+    <meta property="og:url" content="http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="OS X: Fehler bei Updates beheben">
+  <meta property="og:description" content="Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.
+Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:
+Terminal starten:
+cd /Library/Updates/
+Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-05-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2013-05-24T00:00:00+00:00">
+    <meta property="article:tag" content="Itunes">
+    <meta property="article:tag" content="Osx">
+
+
+    <title>
+  OS X: Fehler bei Updates beheben · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/">
+              OS X: Fehler bei Updates beheben
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2013-05-24T00:00:00Z'>
+                24 May 2013
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/itunes/">itunes</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/osx/">osx</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.</p>
+<p>Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:</p>
+<p>Terminal starten:</p>
+<blockquote>
+<p>cd /Library/Updates/</p>
+</blockquote>
+<p>Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781</p>
+<blockquote>
+<p>cd zzzz041-9781</p>
+<p>sudo mv iTunes*.pkg /tmp/</p>
+</blockquote>
+<p>Passwort eingeben und fertig. Die fehlerhaften Dateien wurden nun in das Verzeichnis /tmp verschoben. Falls sie doch nicht die Ursache waren, könnte man sie dort später wiederherstellen. Nun kann man erneut versuchen, das Update herunter zu laden und zu installieren.</p>
+<p>Bei mir hat das so funktioniert.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

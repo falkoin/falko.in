@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry-Pi on Falko Döhring</title>
+    <link>http://localhost:1313/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry-Pi on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RaspBMC Musik über iTunes unter OS X</title>
+      <link>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</guid>
+      <description>Wer einen Raspberry Pi mit RaspBMC besitzt, kennt vielleicht das Problem: Musik von iTunes zum Pi über Airplay senden funktioniert nicht.&#xA;Bei mir war das so unter OS X 10.8.3 mit einem MacBook Pro Early 2011 über WLAN. Es ging mit iPhone, aber nicht von iTunes über den Mac. Deaktivieren von IPV6 hat das behoben:&#xA;networksetup -setv6off Wi-Fi&#xA;Das in das Terminal eingeben, mit Passwort bestätigen und los geht es!</description>
+    </item>
+  </channel>
+</rss>

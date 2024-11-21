@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on Falko Döhring</title>
+    <link>http://localhost:1313/tags/life/</link>
+    <description>Recent content in Life on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Onlinebestellung und dessen Kehrseite</title>
+      <link>http://localhost:1313/posts/onlinebestellung-und-dessen-kehrseite/</link>
+      <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/onlinebestellung-und-dessen-kehrseite/</guid>
+      <description>Vor gut einer Woche habe ich mir ein neues Fahrrad bestellt. Es sollte ein schönes Vintage-Rennrad werden, das ich über den Winter noch etwas umbauen wollte.&#xA;Leider haben mir grandiose Verpackungs- und Lieferungskünste einen Strich durch die Rechnung gemacht.&#xA;See the full gallery on Posterous</description>
+    </item>
+  </channel>
+</rss>

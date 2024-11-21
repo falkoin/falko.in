@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.
+Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.
+Zunächst wählt man bei Adium unter &ldquo;Datei&rdquo; den Punkt &ldquo;Einstellungen&rdquo;.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X">
+  <meta name="twitter:description" content="Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.
+Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.
+Zunächst wählt man bei Adium unter “Datei” den Punkt “Einstellungen”.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X">
+  <meta property="og:description" content="Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.
+Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.
+Zunächst wählt man bei Adium unter “Datei” den Punkt “Einstellungen”.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-07-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2013-07-10T00:00:00+00:00">
+    <meta property="article:tag" content="Encryption">
+    <meta property="article:tag" content="Osx">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="Sicherheit">
+    <meta property="article:tag" content="Verschluesselung">
+
+
+    <title>
+  Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/">
+              Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2013-07-10T00:00:00Z'>
+                10 July 2013
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/encryption/">encryption</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/osx/">osx</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/security/">security</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/sicherheit/">sicherheit</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/verschluesselung/">verschluesselung</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.</p>
+<p>Es bietet sich der Multi-Messenger <a href="https://adium.im/">Adium</a> an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.</p>
+<p>Zunächst wählt man bei Adium unter &ldquo;Datei&rdquo; den Punkt &ldquo;Einstellungen&rdquo;. Dort angekommen klickt man auf den Menüreiter &ldquo;Konto&rdquo;. Mit dem kleinen &ldquo;Plus mit dem Pfeil nach unten&rdquo; gelangt man zur Kontoauswahl. Dort wählt man XMPP aus. Dies ist der Standard, der von Jabber verwendet wird.</p>
+<p><img src="http://localhost:1313/images/dienstauswahl.png" alt="dienstauswahl"></p>
+<p>Anschließend sucht man sich einen Benutzernamen aus. Zum Beispiel &ldquo;MrExample23&rdquo;. Ein @jabber.org muss nicht angehängt werden. Im Bereich Passwort wählt man ein möglichst sicheres Passwort. Ein sicheres Passwort generiert man sich zum Beispiel so: Man wählt zwei Worte: &ldquo;Rainbow&rdquo;, &ldquo;Unicorn&rdquo;. Ersetzt Buchstaben durch entsprechende Zahlen (Stichwort: <a href="https://de.wikipedia.org/wiki/Leetspeak">1337-Speak</a>). Also nimmt man zum Beispiel: &ldquo;R41nb0w&rdquo; und &ldquo;Un1c0rn&rdquo;. Setzt diese zusammen, indem man sie mit einem Sonderzeichen verbindet und verändert die Groß- und Kleinschreibung: &ldquo;r41Nb0w_un1C0rn&rdquo;. Anschließend fügt man noch etwas zum Anfang oder Ende hinzu: &ldquo;17$r41Nb0w_un1C0rn&rdquo;. Man könnte jetzt behaupten, dass sich das kein Mensch merken kann, aber dem möchte ich folgendes entgegnen. Die beiden Worte können ja welche sein, mit denen man etwas verbindet. Für die Zahl kann das Gleiche gelten und den Rest macht man eben immer gleich, nach System.</p>
+<p>Nun klickt man auf &ldquo;Neues Konto registrieren&rdquo;.</p>
+<p><img src="http://localhost:1313/images/benutzername.png" alt="benutzername"></p>
+<p>Im folgenden Fenster wählt man den Jabber-Server des <a href="https://de.wikipedia.org/wiki/Chaos_Computer_Club">CCC</a> aus. Dieser verschlüsselt meines Wissen die Daten auch auf dem Server, was sonst eine Schwachstelle sein kann. Mit einem Klick auf &ldquo;Neues Konto anfordern&rdquo; generiert man nun ein neues Konto. Die Voraussetzung ist allerdings, dass der Benutzername noch frei ist. Zu beachten ist auch, dass Konten, die 12 Monate unbenutzt bleiben, automatisch gelöscht werden.</p>
+<p><img src="http://localhost:1313/imaages/serverwahl.png" alt="serverwahl"></p>
+<p>Um jetzt noch die Verschlüsselung zu aktivieren, geht man im Menü &ldquo;Einstellungen&rdquo; in den Menüreiter &ldquo;Erweitert&rdquo; und wählt dort in der linken Seitenleiste den Punkt &ldquo;Verschlüsselung&rdquo;. Dort wählt man das neu erstellte Jabber-Konto aus und klickt auf den Punkt &ldquo;Neu generieren&rdquo;. Hiermit wird ein Schlüssel generiert, der zur Identifizierung gegenüber euren Chatpartnern dient.</p>
+<p><img src="http://localhost:1313/images/verschluesselung.png" alt="verschluesselung"></p>
+<p>Um nun verschlüsselt chatten zu können, müsst ihr nur noch im Chatfenster auf das Schlosssymbol klicken. Die Voraussetzung dafür ist natürlich, dass der Chatpartner auch das Verschlüsseln des Chats eingerichtet hat. Wie das geht, kann man diesem ja anhand dieser Anleitung erklären.</p>
+<p><img src="http://localhost:1313/images/chatten.png" alt="chatten"></p>
+<p><strong>Ausblick:</strong></p>
+<p>In einem weiteren Eintrag werde ich erklären, wie das beschriebene unter Windows beziehungsweise Linux zu verwirklichen ist.</p>
+<p>Außerdem wird es einen Artikel zu verschlüsselten Chats und mobilen Geräten geben.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

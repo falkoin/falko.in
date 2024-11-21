@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on Falko Döhring</title>
+    <link>http://localhost:1313/categories/macos/</link>
+    <description>Recent content in MacOS on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Mar 2021 14:34:50 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing color/sharpness issues with external displays on macOS (RGB/YCBCR)</title>
+      <link>http://localhost:1313/posts/rgb_mode_dell_macos/</link>
+      <pubDate>Tue, 09 Mar 2021 14:34:50 +0100</pubDate>
+      <guid>http://localhost:1313/posts/rgb_mode_dell_macos/</guid>
+      <description>The first time I connected my BenQ XL2730 display to my MacBook the image looked very blurry and I started googling the issue.&#xA;I found out that the issue is related to the color-mode a display is identified with, either RGB or YCBCR. Usually you want your display to be connected with RGB color, but my BenQ was fixed on YCBR without any option to changing it. After more research I found a script to modify some system files so the display is forced into RGB mode.</description>
+    </item>
+    <item>
+      <title>Using the command-line in macOS to resize images</title>
+      <link>http://localhost:1313/posts/resize-images-with-the-command-line/</link>
+      <pubDate>Mon, 28 Dec 2020 12:28:32 +0100</pubDate>
+      <guid>http://localhost:1313/posts/resize-images-with-the-command-line/</guid>
+      <description>Creating the photo section for this blog I had the need to resize many images at once. Sure enough, I didn&amp;rsquo;t want to do this by hand and also found it cumbersome to create a batch process in an image manipulation program like Affinity Photo or Photoshop.&#xA;After a quick web-search I stumbled upon the tool sips.&#xA;sips -Z 2000 *.jpg This command resizes all jpg files in a folder to a maximum height or width of 2000, while keeping the aspect ratio.</description>
+    </item>
+    <item>
+      <title>Enabling EpocCam with MS Teams</title>
+      <link>http://localhost:1313/posts/ms-teams/</link>
+      <pubDate>Thu, 03 Dec 2020 09:26:26 +0100</pubDate>
+      <guid>http://localhost:1313/posts/ms-teams/</guid>
+      <description>For work I use the communication platform MS Teams, which makes having a webcam kind of mandatory. Since I used to work with my laptop in clamshell mode, I wasn&amp;rsquo;t able to use the internal webcam. That&amp;rsquo;s when I discovered EpocCam, a software, which makes it possible to use a smartphone as webcam. Using your smartphone is not only pretty convenient but has also very good quality when compared with a standard webcam.</description>
+    </item>
+  </channel>
+</rss>

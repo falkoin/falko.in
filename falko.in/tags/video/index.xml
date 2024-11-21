@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Falko Döhring</title>
+    <link>http://localhost:1313/tags/video/</link>
+    <description>Recent content in Video on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Mar 2021 09:17:33 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing handbrake&#39;s automatic aspect ratio detection</title>
+      <link>http://localhost:1313/posts/handbrake_aspect_ratio/</link>
+      <pubDate>Wed, 03 Mar 2021 09:17:33 +0100</pubDate>
+      <guid>http://localhost:1313/posts/handbrake_aspect_ratio/</guid>
+      <description>From time to time I do screen recordings, which include a PowerPoint with an aspect ratio of 4:3. When encoding these video files with handbrake it tries to be smart about it and automatically detects the aspect ratio of the video, which usually results in a cropped video.&#xA;But there is an easy fix for that. Go to the picture tab and change the cropping option to 0 in all directions.</description>
+    </item>
+    <item>
+      <title>OS X Videos richtig convertieren</title>
+      <link>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</guid>
+      <description>Ich musste mich mal wieder mit dem leidigen Thema &amp;ldquo;Videokonvertierung&amp;rdquo; beschäftigen. Ziel war es ein Video (.MTS) am Mac zu bearbeiten und anschließend Windows Power Point tauglich (.MPG) zu machen. Wenn man ganz normal in einer Suchmaschine nach den Begriffen &amp;ldquo;Video&amp;rdquo;, &amp;ldquo;Konvertierung&amp;rdquo; und &amp;ldquo;Mac&amp;rdquo; sucht, bekommt man fast ausschließlich kostenpflichtigen Schrott unter die Nase gerieben. Mit FFmpeg bin ich fündig geworden. Dabei handelt es sich um ein mächtiges Kommandozeilen-Tool. Ist zunächst nicht ganz einfach, einmal durchblickt aber unheimlich komfortabel.</description>
+    </item>
+    <item>
+      <title>MKV Datei: DTS Tonspur in AC3 umwandeln</title>
+      <link>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/</guid>
+      <description>Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.&#xA;Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.</description>
+    </item>
+    <item>
+      <title>ISO aus VIDEO_TS Ordner erstellen</title>
+      <link>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</link>
+      <pubDate>Wed, 12 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iso-aus-video_ts-ordner-erstellen/</guid>
+      <description>Um unter OS X 10.8 ein ISO Image aus einem VIDEO_TS Ordner zu erstellen, wird nur folgender Befehl im Terminal benötigt:&#xA;hdiutil makehybrid -iso -o Image.iso /input_path&#xA;Image.iso bezeichnet in diesem Beispiel den Namen, /input_path den VIDEO_TS Ordner.</description>
+    </item>
+    <item>
+      <title>Problembehebung selbst-gemuxter MKVs</title>
+      <link>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</link>
+      <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/problembehebung-selbst-gemuxter-mkvs/</guid>
+      <description>Ich hab früher öfters Tonspuren extrahiert, umgewandelt und verschoben. Dazu war das Programm mkvtoolnix perfekt geeignet.&#xA;Leider hatte ich bei meinen aktuellen Versuchen keinen Erfolg. Mein Streamer hat entweder keinen Ton abgespielt oder ist einfach abgestürzt. Mit folgenden Einstellungen bin ich allerdings zum Ziel gekommen:&#xA;Programm starten Mit add Datei auswählen Tonspurreihenfolge ändern mit up und down Gewünschte Tonspur markieren In General track options Sprache auswählen Standardsprache setzen (Default track flag auf yes) Extra options auswählen und unter Compression die Option none wählen Zum Umwandeln Start muxing anklicken </description>
+    </item>
+    <item>
+      <title>Perseid Meteor Shower</title>
+      <link>http://localhost:1313/posts/perseid-meteor-shower/</link>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/perseid-meteor-shower/</guid>
+      <description>Nächtlicher Himmel im Zeitraffer von Jeff Sullivan.&#xA;Beeindruckend was da oben so alles passiert. Wenn man ein wenig darüber nachdenkt, ist es erstaunlich was uns aktuelle Technik ermöglicht.&#xA;[youtube http://www.youtube.com/watch?v=vroLnrBhbmk]</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.
+Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MKV Datei: DTS Tonspur in AC3 umwandeln">
+  <meta name="twitter:description" content="Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.
+Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.">
+
+    <meta property="og:url" content="http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="MKV Datei: DTS Tonspur in AC3 umwandeln">
+  <meta property="og:description" content="Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.
+Unter OS X findet sich die komfortable Lösung Remux. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2013-01-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2013-01-07T00:00:00+00:00">
+    <meta property="article:tag" content="Osx">
+    <meta property="article:tag" content="Video">
+    <meta property="article:tag" content="Windows">
+
+
+    <title>
+  MKV Datei: DTS Tonspur in AC3 umwandeln · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/mkv-datei-dts-tonspur-in-ac3-umwandeln/">
+              MKV Datei: DTS Tonspur in AC3 umwandeln
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2013-01-07T00:00:00Z'>
+                7 January 2013
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/osx/">osx</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/video/">video</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/windows/">windows</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Manche Streamer können Videodateien mit DTS Tonspur nur wiedergeben, wenn die Anlage am digitalen Ausgang hängt. Wenn das aber, wie bei mir, nicht der Fall ist, wird das Ganze einfach ohne Ton abgespielt. Um das Problem zu umgehen, kann die Tonspur in das AC3 Format umgewandelt werden.</p>
+<p>Unter OS X findet sich die komfortable Lösung <a href="http://www.macupdate.com/app/mac/35968/remux">Remux</a>. Damit kann man einfach innerhalb des MKV-Container die Tonspur umwandeln, ohne händisches De- und Remuxen. Mit gedrückter ALT-Taste kann man vorher eine Kopie der Tonspur anfertigen, so dass beide Spuren erhalten bleiben.</p>
+<p><a href="http://localhost:1313/images/bildschirmfoto_2013-01-07_um_09-02-59-scaled1000.png">Bildschirmfoto_2013-01-07_um_09</a></p>
+<p>Unter Windows habe ich früher eine etwas umständlichere Prozedur benutzt, die allerdings genauso erfolgreich sein sollte.</p>
+<p>Man benötigt die Programme <a href="http://sourceforge.net/projects/mkvextractgui-2/">MKVextract</a>, <a href="http://www.homecinema-hd.com/eac3tougui_en.html">eac3to</a> und <a href="http://www.videohelp.com/tools/MKVtoolnix">MKVmerge/MKVtoolnix</a>.</p>
+<p>Zunächst extrahiert man die DTS Tonspur mit MKVextract. Anschließend wandelt man sie in das gewünschte AC3-Format mittels eac3to und fügt die Spur abschließend wieder der MKV-Datei hinzu (MKVmerge). Dabei kann gewählt werden, ob die DTS-Tonspur behalten oder verworfen werden soll.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

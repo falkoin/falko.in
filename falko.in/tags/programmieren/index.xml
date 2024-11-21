@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programmieren on Falko Döhring</title>
+    <link>http://localhost:1313/tags/programmieren/</link>
+    <description>Recent content in Programmieren on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programmieren/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game of Life</title>
+      <link>http://localhost:1313/posts/game-of-life/</link>
+      <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/game-of-life/</guid>
+      <description>Ich habe mal ein &amp;ldquo;Game of Life&amp;rdquo; von Conway in Matlab programmiert und als Video gespeichert. Wem Game of Life nichts sagt, der sollte sich mal das oder das zu Gemüte führen.&#xA;Hier gibt es das Repository auf GitHub&#xA;EDIT: Ich habe das Programm nun so umgebaut, dass man die Startpunkte selbst mit der Maus setzen kann. Außerdem habe ich einen Bug im Algorithmus behoben, so dass es sich nun ordnungsgemäß verhält.</description>
+    </item>
+  </channel>
+</rss>

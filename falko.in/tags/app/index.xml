@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on Falko Döhring</title>
+    <link>http://localhost:1313/tags/app/</link>
+    <description>Recent content in App on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workflow: Alfred</title>
+      <link>http://localhost:1313/posts/workflow-alfred/</link>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/workflow-alfred/</guid>
+      <description>Das Programm Alfred ist ein ziemlicher Allrounder was seine Funktionen angeht. Einmal installiert, wirkt es wie ein zweites Spotlight. Über eine Tastenkombination (bei mir alt + space) öffnet sich zunächst nur eine Kommandozeile. Tippt man ein beliebiges Wort, durchsucht Alfred den Mac nach diesem Stichwort, egal ob es sich um einen Kontakt, eine Datei oder ein Programm handelt.&#xA;Ich möchte in diesem Eintrag nicht auf alle Funktionen eingehen, sondern viel mehr ein paar wichtige Funktionen für meinen Arbeits-Workflow (und oft Alltags-Workflow) hervorheben.</description>
+    </item>
+    <item>
+      <title>f.lux Vorstellung</title>
+      <link>http://localhost:1313/posts/f-lux-vorstellung/</link>
+      <pubDate>Sun, 05 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/f-lux-vorstellung/</guid>
+      <description>f.lux ist kleines nützliches Tool, das die Kontrolle über die Bildschirmanzeige übernimmt. Dies tut es nicht wahllos, sondern passt die Farbtemparatur am Monitor der Außenhelligkeit an.&#xA;Dazu muss man einmalig angeben, wo man sich befindet, damit f.lux die Zeitdaten abrufen kann. Von nun an wird dem Bildschirm vor allem blaues Licht entzogen, sobald es draußen dunkel wird. Warum sollte man einem Programm erlauben seinem Monitor einen Rotstich zu verpassen? Blaues Licht hält uns künstlich wach und verhindert, dass man müde wird.</description>
+    </item>
+  </channel>
+</rss>

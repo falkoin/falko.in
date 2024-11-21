@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Handbrake on Falko Döhring</title>
+    <link>http://localhost:1313/tags/handbrake/</link>
+    <description>Recent content in Handbrake on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Mar 2021 09:17:33 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/handbrake/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing handbrake&#39;s automatic aspect ratio detection</title>
+      <link>http://localhost:1313/posts/handbrake_aspect_ratio/</link>
+      <pubDate>Wed, 03 Mar 2021 09:17:33 +0100</pubDate>
+      <guid>http://localhost:1313/posts/handbrake_aspect_ratio/</guid>
+      <description>From time to time I do screen recordings, which include a PowerPoint with an aspect ratio of 4:3. When encoding these video files with handbrake it tries to be smart about it and automatically detects the aspect ratio of the video, which usually results in a cropped video.&#xA;But there is an easy fix for that. Go to the picture tab and change the cropping option to 0 in all directions.</description>
+    </item>
+  </channel>
+</rss>

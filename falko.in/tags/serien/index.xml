@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serien on Falko Döhring</title>
+    <link>http://localhost:1313/tags/serien/</link>
+    <description>Recent content in Serien on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/serien/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Für Serienfans - Episodes (iOS) kostenlos</title>
+      <link>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</guid>
+      <description>Wenn man so ein Serienjunkie ist wie ich, dann ist die App &amp;ldquo;Episodes&amp;rdquo; genau das Richtige. Sie verwaltet komfortabel alle Serien, die man gerne sieht, listet alle Folgen/Staffeln und wann diese weitergehen. Finde ich ziemlich praktisch, vor allem wenn gerade Pause ist - so vergisst man den Start der neuen Staffel sicher nicht.&#xA;Episodes ist zurzeit noch kostenlos zu haben und bisher nur für iOS erhältlich.</description>
+    </item>
+  </channel>
+</rss>

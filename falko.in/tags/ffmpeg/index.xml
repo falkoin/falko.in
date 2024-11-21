@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ffmpeg on Falko Döhring</title>
+    <link>http://localhost:1313/tags/ffmpeg/</link>
+    <description>Recent content in Ffmpeg on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS X Videos richtig convertieren</title>
+      <link>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</link>
+      <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-videos-richtig-convertieren/</guid>
+      <description>Ich musste mich mal wieder mit dem leidigen Thema &amp;ldquo;Videokonvertierung&amp;rdquo; beschäftigen. Ziel war es ein Video (.MTS) am Mac zu bearbeiten und anschließend Windows Power Point tauglich (.MPG) zu machen. Wenn man ganz normal in einer Suchmaschine nach den Begriffen &amp;ldquo;Video&amp;rdquo;, &amp;ldquo;Konvertierung&amp;rdquo; und &amp;ldquo;Mac&amp;rdquo; sucht, bekommt man fast ausschließlich kostenpflichtigen Schrott unter die Nase gerieben. Mit FFmpeg bin ich fündig geworden. Dabei handelt es sich um ein mächtiges Kommandozeilen-Tool. Ist zunächst nicht ganz einfach, einmal durchblickt aber unheimlich komfortabel.</description>
+    </item>
+  </channel>
+</rss>

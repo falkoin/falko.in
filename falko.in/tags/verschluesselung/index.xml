@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verschluesselung on Falko Döhring</title>
+    <link>http://localhost:1313/tags/verschluesselung/</link>
+    <description>Recent content in Verschluesselung on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/verschluesselung/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Verschlüsselt chatten mit Jabber - Detailanleitung Teil 1: OS X</title>
+      <link>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselt-chatten-mit-jabber-detailanleitung-teil-1-os-x/</guid>
+      <description>Um die Einstiegshürde für Verschlüsselung zu verkleinern gibt es nun eine Detailanleitung, wie man unter Windows/OS X/Linux mit Jabber verschlüsselt chattet. Dies ist der erste Teil, der sich mit dem Betriebsystem OS X (getestet unter 10.8 Mountain Lion) beschäftigt.&#xA;Es bietet sich der Multi-Messenger Adium an. Damit ist es sehr leicht möglich ein Konto zu erstellen und dieses anschließend zu verschlüsseln.&#xA;Zunächst wählt man bei Adium unter &amp;ldquo;Datei&amp;rdquo; den Punkt &amp;ldquo;Einstellungen&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Verschlüsselung</title>
+      <link>http://localhost:1313/posts/verschlusselung/</link>
+      <pubDate>Sat, 06 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/verschlusselung/</guid>
+      <description>Noch nie war Verschlüsseln der Daten so leicht und gleichzeitig so wichtig! Daher hier ein paar Dinge, die man beachten kann und auch sollte:&#xA;Emails kann man sehr leicht mit der Sammlung von gpgtools.org/ verschlüsseln.&#xA;Für Dateien, Cloudspeicher und externe Medien (USB-Stick, Festplatten, etc) empfiehlt sich TrueCrypt. Eine Anleitung für die Dropbox findet sich zum Beispiel hier und hier.&#xA;Mit Jabber kann man verschlüsselt chatten. Eine Anleitung dazu findet sich hier.</description>
+    </item>
+  </channel>
+</rss>

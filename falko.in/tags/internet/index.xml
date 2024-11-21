@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Falko Döhring</title>
+    <link>http://localhost:1313/tags/internet/</link>
+    <description>Recent content in Internet on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Feb 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bidvoy</title>
+      <link>http://localhost:1313/posts/bidvoy/</link>
+      <pubDate>Sat, 02 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bidvoy/</guid>
+      <description>Wer, wie ich, öfters bei eBay kauft oder verkauft, freut sich über kleine Helfer, die einem das Auktionsleben erleichtern. So ein kleiner Helfer ist Bidvoy. Auf der Internetseite kann man nach Artikeln suchen und bekommt anschließend einige Statistiken geliefert. Da ist alles wichtige von durchschnittlicher Verkaufspreis bis hin zum optimalen Verkaufszeitpunkt dabei. Aber seht selbst:&#xA;PS: Gleichzeitig ist dieser Post ein Test, um Wordpress for iOS zu testen.</description>
+    </item>
+    <item>
+      <title>Pocket (Formerly Read it Later)</title>
+      <link>http://localhost:1313/posts/pocket-formerly-read-it-later/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pocket-formerly-read-it-later/</guid>
+      <description>Pocket ist einer dieser kleinen Helfer, die ich auf keinen Fall mehr in meinem Internet-Alltag missen möchte.&#xA;Also was macht Pocket genau? Letztendlich speichert es Seiten ab, damit man sie später gesammelt lesen kann. Zusätzlich bringt es das Material in eine optisch ansprechende Artikelform. Das bedeutet, die Artikel sind in schwarzer Schrift auf weißem Hintergrund mit allen Bildern, die auch auf der Internetseite zu sehen waren. Außerdem werden mehrseitige Artikel zu einem zusammengefasst.</description>
+    </item>
+    <item>
+      <title>Google Bildersuche: &#34;Größe - genau...&#34; vermisst!</title>
+      <link>http://localhost:1313/posts/google-bildersuche-grose-genau-vermisst/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/google-bildersuche-grose-genau-vermisst/</guid>
+      <description>Mit der Verschlimmbesserung der Google Bildersuche ist die Option nach einer genauen Bildgröße verloren gegangen. Mit folgendem &amp;ldquo;Code&amp;rdquo; kann man trotzdem noch nach genauen Maßen suchen:&#xA;Suchwort imagesize:HÖHExBREITE&#xA;Danach gibt es nur noch Ergebnisse in der gewünschten Größe. Allerdings scheint diese Option nicht mehr optimal integriert zu sein. Jedenfalls führt sie bei mir zu folgendem Anzeigefehler:</description>
+    </item>
+    <item>
+      <title>Linksammlung 24.09.2012</title>
+      <link>http://localhost:1313/posts/linksammlung-24-09-2012/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linksammlung-24-09-2012/</guid>
+      <description> Lesenswertes iOS 6 Review von imore.com Rezept mit Äpfeln, das demnächst ausprobiert wird Und noch eins </description>
+    </item>
+    <item>
+      <title>Gravatar</title>
+      <link>http://localhost:1313/posts/gravatar/</link>
+      <pubDate>Wed, 22 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gravatar/</guid>
+      <description>Gravtar ist ein Dienst, der einen Avatar mit einer Emailadresse verknüpft. So kann man zum Beispiel unter Angabe der eigenen Emailadresse auf Blogs kommentieren und hat gleich den passenden Avatar dazu. Vorausgesetzt der Blog untersützt Gravatar.&#xA;Ich finde das eine nette Idee, möchte aber auch gleich auf die Kehrseite hinweisen. Denn sobald etwas in einenm zentralen Dienst ausgelagert wird, ist es natürlich sehr leicht Daten zu sammeln und diese anschließend auszuwerten.</description>
+    </item>
+  </channel>
+</rss>

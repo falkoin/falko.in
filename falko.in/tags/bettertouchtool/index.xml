@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bettertouchtool on Falko Döhring</title>
+    <link>http://localhost:1313/tags/bettertouchtool/</link>
+    <description>Recent content in Bettertouchtool on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bettertouchtool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logitech Mäuse und OS X</title>
+      <link>http://localhost:1313/posts/logitech-maeuse-und-os-x/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/logitech-maeuse-und-os-x/</guid>
+      <description>Ich besitze eine Logitech G400s Maus und benutze aktuell OS X 10.11 (El Capitain). Die Logitech Software unter OS X ist einfach nur schlecht und ist selten aktuell.&#xA;So habe ich gerade auf El Capitain aktualisiert und nun funktionieren mal wieder meine Vor- und Zurück-Tasten nicht mehr. Bei der Lösungssuche bin ich auf die Software BetterTouchTool gestoßen und ich kann nur sagen - sie funktioniert einwandfrei. Die Logitech Software habe ich von der Platte verbannt.</description>
+    </item>
+  </channel>
+</rss>

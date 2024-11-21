@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Falko Döhring</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schriftart zum Coden: Hack</title>
+      <link>http://localhost:1313/posts/schriftart-zum-coden-hack/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/schriftart-zum-coden-hack/</guid>
+      <description>Hack ist eine Schriftart, die speziell für Programmierer entwickelt wurde und noch dazu quelloffen ist.&#xA;Sie ist natürlich &amp;ldquo;mono type&amp;rdquo; und hat distinkte Zeichen, wie in der Abbildung zu sehen ist. Ich benutze sie seit ein paar Wochen und bin sehr zufrieden. Nur der Unterstrich könnte etwas markanter sein.&#xA;Hier kommt man zum Repository.</description>
+    </item>
+  </channel>
+</rss>

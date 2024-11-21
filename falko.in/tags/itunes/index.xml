@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Itunes on Falko Döhring</title>
+    <link>http://localhost:1313/tags/itunes/</link>
+    <description>Recent content in Itunes on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 24 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/itunes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS X: Fehler bei Updates beheben</title>
+      <link>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</link>
+      <pubDate>Fri, 24 May 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/os-x-fehler-bei-updates-beheben/</guid>
+      <description>Bei der neuen Version von iTunes kam es bei mir zu einem Fehler (103) bei der Installation. Danach war weiterhin eine Benachrichtigung über das neue Update zu sehen, es ließ sich aber unter keinen Umständen installieren.&#xA;Die Ursache war vermutlich eine korrupte Installationsdatei. Um diese zu löschen und somit ein erneutes Herunterladen zu erzwingen, geht man wie folgt vor:&#xA;Terminal starten:&#xA;cd /Library/Updates/&#xA;Dort nach einem Ordner suchen der in etwa so aussieht: zzzz041-9781</description>
+    </item>
+    <item>
+      <title>RaspBMC Musik über iTunes unter OS X</title>
+      <link>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</link>
+      <pubDate>Sun, 14 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raspbmc-musik-uber-itunes-auf-os-x/</guid>
+      <description>Wer einen Raspberry Pi mit RaspBMC besitzt, kennt vielleicht das Problem: Musik von iTunes zum Pi über Airplay senden funktioniert nicht.&#xA;Bei mir war das so unter OS X 10.8.3 mit einem MacBook Pro Early 2011 über WLAN. Es ging mit iPhone, aber nicht von iTunes über den Mac. Deaktivieren von IPV6 hat das behoben:&#xA;networksetup -setv6off Wi-Fi&#xA;Das in das Terminal eingeben, mit Passwort bestätigen und los geht es!</description>
+    </item>
+  </channel>
+</rss>

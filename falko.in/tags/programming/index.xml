@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Falko Döhring</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schriftart zum Coden: Hack</title>
+      <link>http://localhost:1313/posts/schriftart-zum-coden-hack/</link>
+      <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/schriftart-zum-coden-hack/</guid>
+      <description>Hack ist eine Schriftart, die speziell für Programmierer entwickelt wurde und noch dazu quelloffen ist.&#xA;Sie ist natürlich &amp;ldquo;mono type&amp;rdquo; und hat distinkte Zeichen, wie in der Abbildung zu sehen ist. Ich benutze sie seit ein paar Wochen und bin sehr zufrieden. Nur der Unterstrich könnte etwas markanter sein.&#xA;Hier kommt man zum Repository.</description>
+    </item>
+    <item>
+      <title>Game of Life</title>
+      <link>http://localhost:1313/posts/game-of-life/</link>
+      <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/game-of-life/</guid>
+      <description>Ich habe mal ein &amp;ldquo;Game of Life&amp;rdquo; von Conway in Matlab programmiert und als Video gespeichert. Wem Game of Life nichts sagt, der sollte sich mal das oder das zu Gemüte führen.&#xA;Hier gibt es das Repository auf GitHub&#xA;EDIT: Ich habe das Programm nun so umgebaut, dass man die Startpunkte selbst mit der Maus setzen kann. Außerdem habe ich einen Bug im Algorithmus behoben, so dass es sich nun ordnungsgemäß verhält.</description>
+    </item>
+  </channel>
+</rss>

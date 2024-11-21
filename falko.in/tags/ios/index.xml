@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ios on Falko Döhring</title>
+    <link>http://localhost:1313/tags/ios/</link>
+    <description>Recent content in Ios on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iOS Sleep Timer</title>
+      <link>http://localhost:1313/posts/ios-sleep-timer/</link>
+      <pubDate>Tue, 09 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ios-sleep-timer/</guid>
+      <description>Ich habe neulich erst entdeckt, dass in der iOS Uhr ein Sleep Timer eingebaut ist. Damit ist es möglich, laufende Musik nach einer bestimmten Zeit zu stoppen. So kann man, wie bei den meisten Anlagen, abends zum Schlafengehen noch ein paar Minuten Podcasts/Musik/Hörbücher hören. Und so geht&amp;rsquo;s:&#xA;Die Uhr.app starten und unten rechts das Feld &amp;ldquo;Timer&amp;rdquo; wählen. Dort die gewünschte Zeit einstellen und als Klingelton &amp;ldquo;Wiedergabe stoppen&amp;rdquo; auswählen. Jede Audioquelle wird nun nach der gewählten Zeit gestoppt.</description>
+    </item>
+    <item>
+      <title>Für Serienfans - Episodes (iOS) kostenlos</title>
+      <link>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fur-serienfans-episodes-ios-kostenlos/</guid>
+      <description>Wenn man so ein Serienjunkie ist wie ich, dann ist die App &amp;ldquo;Episodes&amp;rdquo; genau das Richtige. Sie verwaltet komfortabel alle Serien, die man gerne sieht, listet alle Folgen/Staffeln und wann diese weitergehen. Finde ich ziemlich praktisch, vor allem wenn gerade Pause ist - so vergisst man den Start der neuen Staffel sicher nicht.&#xA;Episodes ist zurzeit noch kostenlos zu haben und bisher nur für iOS erhältlich.</description>
+    </item>
+  </channel>
+</rss>

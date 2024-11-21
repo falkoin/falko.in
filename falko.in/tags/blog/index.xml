@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Falko Döhring</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Falko Döhring</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posterous Backup ist da (Edit: Nun auch integriert)</title>
+      <link>http://localhost:1313/posts/posterous-backup-ist-da/</link>
+      <pubDate>Mon, 21 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/posterous-backup-ist-da/</guid>
+      <description>Nachdem ich schon aufgehört hatte zu checken, ob Posterous mir das Backup endlich zum Runterladen bereitstellt, hat es nun wirklich geklappt. Das Backup ist da! Wenn ich die Zeit finde, füge ich die alten Posts später noch ein.&#xA;EDIT: Nun sind die alten Posts eingepflegt.</description>
+    </item>
+    <item>
+      <title>Umzug</title>
+      <link>http://localhost:1313/posts/umzug/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/umzug/</guid>
+      <description>Da Posterous nicht mehr weiterentwickelt oder womöglich sogar ganz eingestellt wird (Link, Link), habe ich mich entschlossen hier bei wordpress.com weiter zu bloggen. Ich warte momentan noch auf das Backup von Posterous, welches mir via Email zugesendet werden soll. Dann werden hier auch bald die alten Posts zu lesen sein.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Falko Döhring">
+    <meta name="description" content="Möchte man pygame auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.
+Zunächst installiert man Python 3.4, falls man das eh nicht schon getan hat Wer XCode oder die XCode Developertools noch nicht hat, der wird hier oder im Mac App Store fündig. Anschließend besorgt man sich MacPorts (zur Installation einiger Pakete) und XQuartz (grafische Darstellung) Zuletzt lädt man noch diese Datei herunter (angepasste Datei zur Installation von pygame) Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="pygame mit Python 3.4 und MacPorts auf dem Mac">
+  <meta name="twitter:description" content="Möchte man pygame auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.
+Zunächst installiert man Python 3.4, falls man das eh nicht schon getan hat Wer XCode oder die XCode Developertools noch nicht hat, der wird hier oder im Mac App Store fündig. Anschließend besorgt man sich MacPorts (zur Installation einiger Pakete) und XQuartz (grafische Darstellung) Zuletzt lädt man noch diese Datei herunter (angepasste Datei zur Installation von pygame) Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:">
+
+    <meta property="og:url" content="http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/">
+  <meta property="og:site_name" content="Falko Döhring">
+  <meta property="og:title" content="pygame mit Python 3.4 und MacPorts auf dem Mac">
+  <meta property="og:description" content="Möchte man pygame auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.
+Zunächst installiert man Python 3.4, falls man das eh nicht schon getan hat Wer XCode oder die XCode Developertools noch nicht hat, der wird hier oder im Mac App Store fündig. Anschließend besorgt man sich MacPorts (zur Installation einiger Pakete) und XQuartz (grafische Darstellung) Zuletzt lädt man noch diese Datei herunter (angepasste Datei zur Installation von pygame) Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-02-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2015-02-19T00:00:00+00:00">
+    <meta property="article:tag" content="Pygame">
+    <meta property="article:tag" content="Python">
+
+
+    <title>
+  pygame mit Python 3.4 und MacPorts auf dem Mac · Falko Döhring
+</title>
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/">
+    
+
+    <link rel="preload" href="http://localhost:1313/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/coder-dark.css" media="screen">
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/images/apple-touch-icon.png">
+
+    
+
+    <meta name="generator" content="Hugo 0.126.1">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://localhost:1313/">
+      Falko Döhring
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/links/">Links</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://localhost:1313/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/pygame-mit-python-3-4-und-macports-auf-dem-mac/">
+              pygame mit Python 3.4 und MacPorts auf dem Mac
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2015-02-19T00:00:00Z'>
+                19 February 2015
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="http://localhost:1313/categories/tech/">tech</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/pygame/">pygame</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="http://localhost:1313/tags/python/">python</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Möchte man <a href="http://pygame.org">pygame</a> auf dem Mac installieren, muss man schnell feststellen, dass die aktuelle Version auf der Homepage noch auf Basis von Python 2.7 läuft. Mit wenig Aufwand kann man sich selbst eine Version auf Python 3.4 basierend erstellen.</p>
+<ul>
+<li>Zunächst installiert man <a href="https://www.python.org/">Python</a> 3.4, falls man das eh nicht schon getan hat</li>
+<li>Wer XCode oder die XCode Developertools noch nicht hat, der wird <a href="https://developer.apple.com/xcode/downloads/">hier</a> oder im Mac App Store fündig.</li>
+<li>Anschließend besorgt man sich <a href="https://www.macports.org/">MacPorts</a> (zur Installation einiger Pakete) und <a href="http://xquartz.macosforge.org/landing/">XQuartz</a> (grafische Darstellung)</li>
+<li>Zuletzt lädt man noch diese <a href="http://dudeslife.com/images/scale_mmx64.c">Datei</a> herunter (angepasste Datei zur Installation von pygame)</li>
+</ul>
+<p>Wenn die oben genannte Software installiert ist, startet man ein Terminal und installiert ein paar nötige Pakete:</p>
+<blockquote>
+<p>sudo port install mercurial</p>
+</blockquote>
+<p>System zur Versionskontrolle - wird später für pygame benötigt.</p>
+<blockquote>
+<p>sudo port install libdsl libsdl_image libsdl_mixer libsdl_ttf portmidi</p>
+<p>sudo port install smpeg</p>
+</blockquote>
+<p>Abhängige Pakete installieren.</p>
+<blockquote>
+<p>cd yourPreferedDownloadDirectory/</p>
+<p>hg clone <a href="https://bitbucket.org/pygame/pygame">https://bitbucket.org/pygame/pygame</a></p>
+</blockquote>
+<p>Download der aktuellen Version von pygame.</p>
+<blockquote>
+<p>cd pygame/src</p>
+<p>cp yourPreferedDownloadDirectory/scale_mmx64.c .</p>
+</blockquote>
+<p>Austausch einer Datei, damit die Installation klappt.</p>
+<blockquote>
+<p>pip3 install yourPreferedDownloadDirectory/pygame</p>
+</blockquote>
+<p>Installation von pygame. Unter Umständen erscheint nun eine Fehlermeldung, die folgendes enthält:</p>
+<blockquote>
+<p>&lsquo;X11/Xlib.h&rsquo; file not found #include &lt;X11/Xlib.h&gt;</p>
+</blockquote>
+<p>Ist dies der Fall, müsst ihr noch einen letzten Befehl ausführen:</p>
+<blockquote>
+<p>sudo ln -s /opt/X11/include/X11 /usr/local/include/X11</p>
+</blockquote>
+<p>Linkt X11 an die richtige Stelle. Um zu überprüfen, ob alles geklappt hat startet ihr nun Python:</p>
+<blockquote>
+<p>python3.4</p>
+</blockquote>
+<p>Importiert das Modul pygame:</p>
+<blockquote>
+<p>import pygame</p>
+</blockquote>
+<p>Falls jetzt keine Fehlermeldung erscheint, hat alles geklappt und pygame steht zur Verfügung.</p>
+<p>Die meisten Informationen stammen nicht von mir, sondern wurden nur von mir zusammengesetzt. Hilfreiche Informationen fand ich auf <a href="http://dudeslife.com/blog/2014/programming/installing-python-3-3-3-pygame-on-os-x-mavericks/">DudesLife.com</a> und dem <a href="http://d.hatena.ne.jp/shinriyo/20140117/p2">Blog von shinriyo</a>.</p>
+<p><em>Hinweis: Diese Anleitung wurde mit OS X Yosemite (10.10.2) und Python 3.4 getestet.</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+      <script src="http://localhost:1313/js/coder.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
